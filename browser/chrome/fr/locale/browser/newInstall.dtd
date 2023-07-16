@@ -1,0 +1,7 @@
+
+<!ENTITY window.title "Informations importantes">
+<!ENTITY window.style "width: 490px">
+<!ENTITY sync "Pour synchroniser les informations que vous avez déjà enregistrées dans Firefox avec cette installation de &brandShortName;, connectez-vous avec votre &syncBrand.fxAccount.label;.">
+<!ENTITY continue-button "Continuer">
+
+<!ENTITY mainText "Cette installation de &brandShortName; a un nouveau profil. Il ne partage pas les marque-pages, les mots de passe ni les préférences utilisateur avec les autres installations de Mypal/Firefox (notamment Firefox, Firefox ESR, Firefox Beta, Firefox Developer Edition et Firefox Nightly) sur cet ordinateur.">

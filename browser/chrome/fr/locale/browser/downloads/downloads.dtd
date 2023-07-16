@@ -1,0 +1,59 @@
+
+<!ENTITY downloads.title                  "Téléchargements">
+
+<!ENTITY downloads.width                  "70ch">
+
+<!ENTITY cmd.pause.label                  "Pause">
+<!ENTITY cmd.pause.accesskey              "P">
+<!ENTITY cmd.resume.label                 "Reprendre">
+<!ENTITY cmd.resume.accesskey             "R">
+<!ENTITY cmd.cancel.label                 "Annuler">
+<!ENTITY cmd.show.label                   "Ouvrir le dossier contenant le fichier">
+<!ENTITY cmd.show.accesskey               "r">
+<!ENTITY cmd.showMac.label                "Afficher dans le Finder">
+<!ENTITY cmd.showMac.accesskey            "F">
+<!ENTITY cmd.showDownloads.label          "Afficher le dossier des téléchargements">
+<!ENTITY cmd.retry.label                  "Réessayer">
+<!ENTITY cmd.goToDownloadPage.label       "Aller à la page de téléchargement">
+<!ENTITY cmd.goToDownloadPage.accesskey   "h">
+<!ENTITY cmd.copyDownloadLink.label       "Copier l’adresse d’origine du téléchargement">
+<!ENTITY cmd.copyDownloadLink.accesskey   "d">
+<!ENTITY cmd.removeFromHistory.label      "Retirer de l’historique">
+<!ENTITY cmd.removeFromHistory.accesskey  "e">
+<!ENTITY cmd.clearList2.label             "Vider le panneau d’aperçu">
+<!ENTITY cmd.clearList2.accesskey         "a">
+<!ENTITY cmd.clearDownloads.label         "Vider la liste des téléchargements">
+<!ENTITY cmd.clearDownloads.accesskey     "V">
+<!ENTITY cmd.unblock2.label               "Autoriser le téléchargement">
+<!ENTITY cmd.unblock2.accesskey           "o">
+<!ENTITY cmd.removeFile.label             "Supprimer le fichier">
+<!ENTITY cmd.chooseUnblock.label          "Supprimer le fichier ou autoriser le téléchargement">
+<!ENTITY cmd.chooseOpen.label             "Ouvrir ou supprimer le fichier">
+
+<!ENTITY showMoreInformation.label        "Afficher plus d’informations">
+
+<!ENTITY openFile.label                   "Ouvrir le fichier">
+
+<!ENTITY retryDownload.label              "Réessayer de télécharger">
+
+<!ENTITY cancelDownload.label             "Annuler le téléchargement">
+
+<!ENTITY blocked.label                    "BLOQUÉ">
+
+<!ENTITY learnMore.label                  "En savoir plus">
+
+<!ENTITY downloadsHistory.label           "Afficher tous les téléchargements">
+<!ENTITY downloadsHistory.accesskey       "i">
+
+<!ENTITY downloadDetails.label            "Détails du téléchargement">
+
+<!ENTITY openDownloadsFolder.label        "Ouvrir le dossier des téléchargements">
+
+<!ENTITY clearDownloadsButton.label       "Vider la liste des téléchargements">
+<!ENTITY clearDownloadsButton.tooltip     "Vider la liste des téléchargements terminés, annulés et qui ont échoué">
+
+<!ENTITY downloadsListEmpty.label         "Il n’y a aucun téléchargement.">
+
+<!ENTITY downloadsPanelEmpty.label        "Aucun téléchargement pour cette session.">
+
+<!ENTITY downloadsListNoMatch.label       "Aucun téléchargement correspondant.">

@@ -1,0 +1,52 @@
+{
+  "languages": {
+    "fr": {
+      "chrome_resources": {
+        "necko": "chrome/fr/locale/fr/necko/", 
+        "pdf.js": "browser/chrome/fr/locale/pdfviewer/", 
+        "global": "chrome/fr/locale/fr/global/", 
+        "devtools": "browser/chrome/fr/locale/fr/devtools/client/", 
+        "pipnss": "chrome/fr/locale/fr/pipnss/", 
+        "alerts": "chrome/fr/locale/fr/alerts/", 
+        "devtools-startup": "browser/chrome/fr/locale/fr/devtools/startup/", 
+        "branding": "browser/chrome/fr/locale/branding/", 
+        "autoconfig": "chrome/fr/locale/fr/autoconfig/", 
+        "devtools-shared": "browser/chrome/fr/locale/fr/devtools/shared/", 
+        "global-platform": {
+          "win": "chrome/fr/locale/fr/global-platform/win/", 
+          "android": "chrome/fr/locale/fr/global-platform/unix/", 
+          "macosx": "chrome/fr/locale/fr/global-platform/mac/", 
+          "linux": "chrome/fr/locale/fr/global-platform/unix/"
+        }, 
+        "browser-region": "browser/chrome/fr/locale/browser-region/", 
+        "mozapps": "chrome/fr/locale/fr/mozapps/", 
+        "pluginproblem": "chrome/fr/locale/fr/pluginproblem/", 
+        "weave": "chrome/fr/locale/fr/services/", 
+        "places": "chrome/fr/locale/fr/places/", 
+        "passwordmgr": "chrome/fr/locale/fr/passwordmgr/", 
+        "report-site-issue": "browser/features/webcompat-reporter@mozilla.org/fr/locale/fr/", 
+        "pippki": "chrome/fr/locale/fr/pippki/", 
+        "browser": "browser/chrome/fr/locale/browser/"
+      }, 
+      "version": "20230716215600"
+    }
+  }, 
+  "applications": {
+    "gecko": {
+      "strict_min_version": "68.13.1", 
+      "id": "langpack-fr@mypal.org", 
+      "strict_max_version": "68.*"
+    }
+  }, 
+  "langpack_id": "fr", 
+  "version": "68.13.0.51", 
+  "name": "Pack de lanque - Français", 
+  "manifest_version": 2, 
+  "sources": {
+    "browser": {
+      "base_path": "browser/"
+    }
+  }, 
+  "author": "mozfr.org (contributors: Vincent Béron, Théo Chevalier, Cédric Corazza, Philippe Dessante, Benoît Leseul, Marie Léger-St-Jean, Jean-Bernard Marcon, Jérôme Schell); Adaptations Mypal68 : Kylian Nicouleaud", 
+  "description": "Pack de langue française pour Mypal68"
+}
