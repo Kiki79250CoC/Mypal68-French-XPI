@@ -28,7 +28,7 @@
         "pippki": "chrome/fr/locale/fr/pippki/", 
         "browser": "browser/chrome/fr/locale/browser/"
       }, 
-      "version": "20230716223000"
+      "version": "20230716231500"
     }
   }, 
   "applications": {
@@ -39,14 +39,14 @@
     }
   }, 
   "langpack_id": "fr", 
-  "version": "68.13.1.00", 
-  "name": "Pack de lanque · Français", 
+  "version": "68.13.1.01", 
+  "name": "French (Français) - Language Pack", 
   "manifest_version": 2, 
   "sources": {
     "browser": {
       "base_path": "browser/"
     }
   }, 
-  "author": "mozfr.org (contributors: Vincent Béron, Théo Chevalier, Cédric Corazza, Philippe Dessante, Benoît Leseul, Marie Léger-St-Jean, Jean-Bernard Marcon, Jérôme Schell); Adaptations Mypal68 : Kylian Nicouleaud", 
-  "description": "Pack de langue française pour Mypal68"
+  "author": "mozfr.org (contributors: Vincent Béron, Théo Chevalier, Cédric Corazza, Philippe Dessante, Benoît Leseul, Marie Léger-St-Jean, Jean-Bernard Marcon, Jérôme Schell)\n Adaptations Mypal68 : Kylian Nicouleaud", 
+  "description": "Language pack for Mypal68.13.1+ for French"
 }
