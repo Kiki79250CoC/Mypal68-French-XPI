@@ -28,7 +28,7 @@
         "pippki": "chrome/fr/locale/fr/pippki/", 
         "browser": "browser/chrome/fr/locale/browser/"
       }, 
-      "version": "20230716215600"
+      "version": "20230716223000"
     }
   }, 
   "applications": {
@@ -39,8 +39,8 @@
     }
   }, 
   "langpack_id": "fr", 
-  "version": "68.13.0.51", 
-  "name": "Pack de lanque - Français", 
+  "version": "68.13.1.00", 
+  "name": "Pack de lanque · Français", 
   "manifest_version": 2, 
   "sources": {
     "browser": {
