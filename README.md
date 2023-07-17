@@ -1,6 +1,6 @@
 # Mypal68 French Language Pack
 ### Pack de langue française pour Mypal68
-![Preview](https://github.com/Kiki79250CoC/Mypal68-French-XPI/blob/d3132a0d358447f1b647042474a1afedaeca25aa/.GitHub/Preview.png)
+![Preview](https://github.com/Kiki79250CoC/Mypal68-French-XPI/blob/927388efc80529b8859b75fce95b91ba9c549bf8/.GitHub/Preview.png)
 
 This repo contains files for the French language package for the ![Feodor2's Mypal68 browser](https://github.com/Feodor2/Mypal68), based on Firefox 68.
 
