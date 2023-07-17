@@ -5,50 +5,66 @@
 permissions-window =
     .title = Exceptions
     .style = width: 50em
+
 permissions-close-key =
     .key = w
+
 permissions-address = Adresse du site web
     .accesskey = d
+
 permissions-block =
     .label = Bloquer
     .accesskey = B
+
 permissions-session =
     .label = Autoriser pour la session
     .accesskey = o
+
 permissions-allow =
     .label = Autoriser
     .accesskey = A
+
 permissions-site-name =
     .label = Site web
+
 permissions-status =
     .label = État
+
 permissions-remove =
     .label = Supprimer le site
     .accesskey = S
+
 permissions-remove-all =
     .label = Supprimer tous les sites
     .accesskey = u
+
 permissions-button-cancel =
     .label = Annuler
     .accesskey = n
+
 permissions-button-ok =
     .label = Enregistrer les modifications
     .accesskey = E
+
 permissions-autoplay-menu = Par défaut pour tous les sites web :
+
 permissions-searchbox =
     .placeholder = Rechercher un site web
+
 permissions-capabilities-autoplay-allow =
     .label = Autoriser l’audio et la vidéo
 permissions-capabilities-autoplay-block =
     .label = Bloquer l’audio
 permissions-capabilities-autoplay-blockall =
     .label = Bloquer l’audio et la vidéo
+
 permissions-capabilities-allow =
     .label = Autoriser
 permissions-capabilities-block =
     .label = Bloquer
 permissions-capabilities-prompt =
     .label = Toujours demander
+
 permissions-capabilities-listitem-allow =
     .value = Autoriser
 permissions-capabilities-listitem-block =
@@ -93,13 +109,6 @@ permissions-exceptions-saved-logins-desc = Les identifiants pour les sites suiva
 
 permissions-exceptions-addons-window =
     .title = Sites autorisés - Modules complémentaires
-    .style = { permissions-window.style }
-permissions-exceptions-addons-desc = Vous pouvez indiquer les sites web autorisés à installer des modules complémentaires. Saisissez l’adresse exacte du site que vous souhaitez autoriser et cliquez sur Autoriser.
-
-## Exceptions - Autoplay Media
-
-permissions-exceptions-autoplay-media-window2 =
-    .title = Exceptions - Lecture automatique
     .style = { permissions-window.style }
 permissions-exceptions-autoplay-media-desc2 = Vous pouvez indiquer les sites web qui sont toujours ou ne sont jamais autorisés à lancer automatiquement la lecture de contenu multimédia comportant du son. Saisissez l’adresse du site et cliquez sur Bloquer ou Autoriser.
 
