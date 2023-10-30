@@ -28,18 +28,18 @@
         "pippki": "chrome/fr/locale/fr/pippki/", 
         "browser": "browser/chrome/fr/locale/browser/"
       }, 
-      "version": "20230717230000"
+      "version": "20231030124500"
     }
   }, 
   "applications": {
     "gecko": {
       "strict_min_version": "68.13.1", 
       "id": "langpack-fr@mypal.org", 
-      "strict_max_version": "68.*"
+      "strict_max_version": "68.13.*"
     }
   }, 
   "langpack_id": "fr", 
-  "version": "68.13.1.10", 
+  "version": "68.13.1.20", 
   "name": "French (Français) - Language Pack", 
   "manifest_version": 2, 
   "sources": {
@@ -47,6 +47,6 @@
       "base_path": "browser/"
     }
   }, 
-  "author": "mozfr.org (contributors: Vincent Béron, Théo Chevalier, Cédric Corazza, Philippe Dessante, Benoît Leseul, Marie Léger-St-Jean, Jean-Bernard Marcon, Jérôme Schell)\n Adaptations Mypal68 : Kylian Nicouleaud", 
+  "author": "mozfr.org (Vincent B., Théo C., Cédric C., Philippe D., Benoît L., Marie L., Jean-Bernard M., Jérôme S.) · Adaptations Mypal68 : Kylian Nicouleaud", 
   "description": "Language pack for Mypal68.13.1+ for French"
 }
