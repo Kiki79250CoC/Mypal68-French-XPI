@@ -491,6 +491,13 @@ home-prefs-highlights-option-most-recent-download =
 home-prefs-highlights-option-saved-to-pocket =
     .label = Pages enregistrées dans { -pocket-brand-name }
 
+home-prefs-sections-rows-option =
+    .label =
+        { $num ->
+            [one] { $num } colonne
+           *[other] { $num } colonnes
+        }
+
 ## Search Section
 
 search-bar-header = Barre de recherche
