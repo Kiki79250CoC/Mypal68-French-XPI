@@ -260,9 +260,9 @@ about-debugging-extension-id =
 # to a service worker.
 # Notes, this relates to the "Push" API, which is normally not localized so it is
 # probably better to not localize it.
-about-debugging-worker-action-push = Push
+about-debugging-worker-action-push2 = Push
 # This string is displayed as a label of the button that starts a service worker.
-about-debugging-worker-action-start = Démarrer
+about-debugging-worker-action-start2 = Démarrer
 # This string is displayed as a label of the button that unregisters a service worker.
 about-debugging-worker-action-unregister = Désinscrire
 # Displayed for service workers in runtime pages that listen to Fetch events.
@@ -287,6 +287,11 @@ about-debugging-worker-scope =
 # of a worker
 about-debugging-worker-push-service =
     .label = Service Push
+		
+# Displayed as title of the inspect button when service worker debugging is disabled.
+about-debugging-worker-inspect-action-disabled =
+  .title = L'inspection du Service Worker est actuellement désactivée pour { -brand-shorter-name } en mode multiprocessus
+
 # Displayed as name for the Main Process debug target in the Processes category. Only for
 # remote runtimes, if `devtools.aboutdebugging.process-debugging` is true.
 about-debugging-main-process-name = Processus principal
