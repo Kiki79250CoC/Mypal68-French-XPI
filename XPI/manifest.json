@@ -2,51 +2,51 @@
   "languages": {
     "fr": {
       "chrome_resources": {
-        "necko": "chrome/fr/locale/fr/necko/", 
-        "pdf.js": "browser/chrome/fr/locale/pdfviewer/", 
-        "global": "chrome/fr/locale/fr/global/", 
-        "devtools": "browser/chrome/fr/locale/fr/devtools/client/", 
-        "pipnss": "chrome/fr/locale/fr/pipnss/", 
-        "alerts": "chrome/fr/locale/fr/alerts/", 
-        "devtools-startup": "browser/chrome/fr/locale/fr/devtools/startup/", 
-        "branding": "browser/chrome/fr/locale/branding/", 
-        "autoconfig": "chrome/fr/locale/fr/autoconfig/", 
-        "devtools-shared": "browser/chrome/fr/locale/fr/devtools/shared/", 
+        "necko": "chrome/fr/locale/fr/necko/",
+        "pdf.js": "browser/chrome/fr/locale/pdfviewer/",
+        "global": "chrome/fr/locale/fr/global/",
+        "devtools": "browser/chrome/fr/locale/fr/devtools/client/",
+        "pipnss": "chrome/fr/locale/fr/pipnss/",
+        "alerts": "chrome/fr/locale/fr/alerts/",
+        "devtools-startup": "browser/chrome/fr/locale/fr/devtools/startup/",
+        "branding": "browser/chrome/fr/locale/branding/",
+        "autoconfig": "chrome/fr/locale/fr/autoconfig/",
+        "devtools-shared": "browser/chrome/fr/locale/fr/devtools/shared/",
         "global-platform": {
-          "win": "chrome/fr/locale/fr/global-platform/win/", 
-          "android": "chrome/fr/locale/fr/global-platform/unix/", 
-          "macosx": "chrome/fr/locale/fr/global-platform/mac/", 
+          "win": "chrome/fr/locale/fr/global-platform/win/",
+          "android": "chrome/fr/locale/fr/global-platform/unix/",
+          "macosx": "chrome/fr/locale/fr/global-platform/mac/",
           "linux": "chrome/fr/locale/fr/global-platform/unix/"
-        }, 
-        "browser-region": "browser/chrome/fr/locale/browser-region/", 
-        "mozapps": "chrome/fr/locale/fr/mozapps/", 
-        "pluginproblem": "chrome/fr/locale/fr/pluginproblem/", 
-        "weave": "chrome/fr/locale/fr/services/", 
-        "places": "chrome/fr/locale/fr/places/", 
-        "passwordmgr": "chrome/fr/locale/fr/passwordmgr/", 
-        "report-site-issue": "browser/features/webcompat-reporter@mozilla.org/fr/locale/fr/", 
-        "pippki": "chrome/fr/locale/fr/pippki/", 
+        },
+        "browser-region": "browser/chrome/fr/locale/browser-region/",
+        "mozapps": "chrome/fr/locale/fr/mozapps/",
+        "pluginproblem": "chrome/fr/locale/fr/pluginproblem/",
+        "weave": "chrome/fr/locale/fr/services/",
+        "places": "chrome/fr/locale/fr/places/",
+        "passwordmgr": "chrome/fr/locale/fr/passwordmgr/",
+        "report-site-issue": "browser/features/webcompat-reporter@mozilla.org/fr/locale/fr/",
+        "pippki": "chrome/fr/locale/fr/pippki/",
         "browser": "browser/chrome/fr/locale/browser/"
-      }, 
-      "version": "20240424015300"
+      },
+      "version": "20250203021225"
     }
-  }, 
+  },
   "applications": {
     "gecko": {
-      "strict_min_version": "68.14.0", 
-      "id": "langpack-fr@mypal.org", 
-      "strict_max_version": "68.14.*"
+      "strict_min_version": "68.14.0",
+      "id": "langpack-fr@mypal.org",
+      "strict_max_version": "68.14.9"
     }
-  }, 
-  "langpack_id": "fr", 
-  "version": "68.14.1.00", 
-  "name": "French (Français) - Language Pack", 
-  "manifest_version": 2, 
+  },
+  "langpack_id": "fr",
+  "version": "68.14.1.10",
+  "name": "French (Français) - Language Pack",
+  "manifest_version": 2,
   "sources": {
     "browser": {
       "base_path": "browser/"
     }
-  }, 
-  "author": "mozfr.org (Vincent B., Théo C., Cédric C., Philippe D., Benoît L., Marie L., Jean-Bernard M., Jérôme S.) · Adaptations Mypal68 : Kylian Nicouleaud", 
+  },
+  "author": "mozfr.org (Vincent B., Théo C., Cédric C., Philippe D., Benoît L., Marie L., Jean-Bernard M., Jérôme S.) · Adaptations Mypal68 : Kylian Nicouleaud",
   "description": "Language pack for Mypal68.14.0+ for French"
 }

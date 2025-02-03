@@ -128,6 +128,9 @@
 <!ENTITY toggleReaderMode.key "R">
 <!ENTITY toggleReaderMode.win.keycode "VK_F9">
 
+<!ENTITY togglePictureInPicture.key2 "}">
+<!ENTITY togglePictureInPicture.key "]">
+
 <!ENTITY fxaSignIn.label "Se connecter à &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "Ouvrir les préférences de &syncBrand.shortName.label;">
 <!ENTITY fxaSignInError.label "Se reconnecter à &syncBrand.shortName.label;">
@@ -140,6 +143,9 @@
 <!ENTITY fullScreenAutohide.accesskey "M">
 <!ENTITY fullScreenExit.label "Quitter le mode plein écran">
 <!ENTITY fullScreenExit.accesskey "Q">
+
+<!ENTITY pictureInPictureHideToggle.label "Masquer le bouton pour l'incrustation vidéo">
+<!ENTITY pictureInPictureHideToggle.accesskey "H">
 
 <!ENTITY fxa.signin.callout.label "Emportez Mypal avec vous">
 <!ENTITY fxa.signin.description.label "Accédez à vos marque-pages, votre historique, vos mots de passe et d’autres paramètres sur l’ensemble de vos appareils.">
