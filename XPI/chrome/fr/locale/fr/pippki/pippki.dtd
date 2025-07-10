@@ -2,7 +2,7 @@
    - License, v. 2.0. If a copy of the MPL was not distributed with this
    - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
-<!-- Values for changepassword.xul -->
+<!-- Values for changepassword.xhtml -->
 <!ENTITY setPassword.title  "Définir le mot de passe principal">
 <!ENTITY setPassword.tokenName.label "Périphérique de sécurité ">
 <!ENTITY setPassword.oldPassword.label "Ancien mot de passe">
@@ -10,7 +10,7 @@
 <!ENTITY setPassword.reenterPassword.label "Saisissez-le à nouveau">
 <!ENTITY setPassword.meter.label "Mesure de la qualité du mot de passe :">
 
-<!-- Values for resetpassword.xul -->
+<!-- Values for resetpassword.xhtml -->
 <!ENTITY resetPasswordButtonLabel "Effacer">
 <!ENTITY resetPassword.title  "Effacer le mot de passe principal">
 <!ENTITY resetPassword.text  "Si vous effacez votre mot de passe principal, tous vos mots de passe web et courrier, vos données de formulaires, vos certificats personnels et vos clés privées seront oubliés. Voulez-vous vraiment supprimer le mot de passe principal ?">

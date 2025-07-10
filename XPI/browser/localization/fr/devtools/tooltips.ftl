@@ -32,6 +32,11 @@ inactive-css-not-inline-or-tablecell = <strong>{ $property }</strong> n’a aucu
 
 inactive-css-property-because-of-display = <strong>{ $property }</strong> n’a aucun effet sur cet élément car la valeur de sa propriété « display » est <strong>{ $display }</strong>.
 
+inactive-css-not-display-block-on-floated = <strong>display</strong> a été modifié par le moteur à <strong>block</strong> parce que cet élément est <strong>flottant</strong>.
+
+inactive-css-property-is-impossible-to-override-in-visited = Il est impossible d'écraser <strong>{ $property }</strong> en raison d'une restriction de <strong>:visited</strong>.
+
+
 ## In the Rule View when a CSS property cannot be successfully applied we display
 ## an icon. When this icon is hovered this message is displayed to explain how
 ## the problem can be solved.
@@ -46,3 +51,4 @@ inactive-css-not-flex-container-fix = Essayez d’ajouter <strong>display:flex</
 inactive-css-not-inline-or-tablecell-fix = Essayez d’ajouter <strong>display:inline</strong> ou <strong>display:table-cell</strong>. { learn-more }
 inactive-css-non-replaced-inline-or-table-row-or-row-group-fix = Essayez d’ajouter <strong>display:inline-block</strong> ou <strong>display:block</strong>. { learn-more }
 inactive-css-non-replaced-inline-or-table-column-or-column-group-fix = Essayez d’ajouter <strong>display:inline-block</strong>. { learn-more }
+inactive-css-not-display-block-on-floated-fix = Essayez de supprimer <strong>float</strong> ou d'ajouter <strong>display:block</strong>. { learn-more }

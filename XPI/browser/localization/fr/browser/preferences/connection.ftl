@@ -38,7 +38,12 @@ connection-proxy-http-port = Port
 connection-proxy-http-share =
     .label = Utiliser ce serveur proxy pour tous les protocoles
     .accesskey = i
+connection-proxy-http-sharing =
+    .label = Utiliser également ce serveur proxy pour les protocoles FTP et HTTPS
+    .accesskey = s
 
+connection-proxy-https = Proxy HTTPS
+    .accesskey = H
 connection-proxy-ssl = Proxy SSL
     .accesskey = S
 connection-proxy-ssl-port = Port
@@ -64,6 +69,9 @@ connection-proxy-noproxy = Pas de proxy pour
     .accesskey = x
 
 connection-proxy-noproxy-desc = Exemples : .mozilla.org, .asso.fr, 192.168.1.0/24
+
+# Do not translate localhost, 127.0.0.1 and ::1.
+connection-proxy-noproxy-localhost-desc = Les connexions vers localhost, 127.0.0.1, et ::1 ne sont jamais placées sous proxy.
 
 connection-proxy-autotype =
     .label = Adresse de configuration automatique du proxy

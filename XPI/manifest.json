@@ -28,7 +28,7 @@
         "pippki": "chrome/fr/locale/fr/pippki/",
         "browser": "browser/chrome/fr/locale/browser/"
       },
-      "version": "20250203021225"
+      "version": "20250710022000"
     }
   },
   "applications": {
@@ -39,7 +39,7 @@
     }
   },
   "langpack_id": "fr",
-  "version": "68.14.1.10",
+  "version": "68.14.1.20",
   "name": "French (Français) - Language Pack",
   "manifest_version": 2,
   "sources": {

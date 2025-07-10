@@ -36,4 +36,7 @@ synced-tabs-context-open-all-in-tabs =
 synced-tabs-context-manage-devices =
     .label = Gérer les appareils…
     .accesskey = G
+synced-tabs-context-sync-now =
+    .label = Synchroniser maintenant
+    .accesskey = S
 fxa-sign-in = Se connecter à { -sync-brand-short-name }
