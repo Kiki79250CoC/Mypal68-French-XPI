@@ -2,7 +2,7 @@
 
 
 
-### This file contains the entities needed to use the Find Bar.
+
 
 findbar-next =
     .tooltiptext = Trouver la prochaine occurrence de la phrase

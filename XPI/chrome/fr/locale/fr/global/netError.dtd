@@ -2,7 +2,7 @@
 <!ENTITY loadError.label "Erreur de chargement de la page">
 <!ENTITY retry.label "Réessayer">
 
-<!-- Specific error messages -->
+
 
 <!ENTITY connectionFailure.title "La connexion a échoué">
 <!ENTITY connectionFailure.longDesc "

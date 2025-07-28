@@ -3,7 +3,7 @@
 
 
 
-## Settings
+
 
 site-data-settings-window =
     .title = Gestion des cookies et des données de sites
@@ -54,7 +54,7 @@ site-data-remove-shown =
     .label = Supprimer les sites affichés
     .accesskey = u
 
-## Removing
+
 
 site-data-removing-dialog =
     .title = { site-data-removing-header }

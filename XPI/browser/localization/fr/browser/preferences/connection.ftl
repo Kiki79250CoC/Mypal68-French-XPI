@@ -65,7 +65,7 @@ connection-proxy-noproxy = Pas de proxy pour
 
 connection-proxy-noproxy-desc = Exemples : .mozilla.org, .asso.fr, 192.168.1.0/24
 
-# Do not translate localhost, 127.0.0.1 and ::1.
+
 connection-proxy-noproxy-localhost-desc = Les connexions vers localhost, 127.0.0.1, et ::1 ne sont jamais placées sous proxy.
 
 connection-proxy-autotype =

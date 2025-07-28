@@ -8,7 +8,7 @@ fonts-window =
 fonts-window-close =
     .key = w
 
-## Font groups by language
+
 
 fonts-langgroup-header = Polices pour
     .accesskey = o
@@ -73,7 +73,7 @@ fonts-langgroup-canadian =
 fonts-langgroup-other =
     .label = Autres systèmes d’écriture
 
-## Default fonts and their sizes
+
 
 fonts-proportional-header = Proportionnelle
     .accesskey = P
@@ -108,7 +108,7 @@ fonts-allow-own =
     .label = Autoriser les pages web à utiliser leurs propres polices au lieu de celles choisies ci-dessus
     .accesskey = h
 
-## Text Encodings
+
 
 
 

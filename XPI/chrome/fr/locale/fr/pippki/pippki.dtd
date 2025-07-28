@@ -1,5 +1,5 @@
 
-<!-- Values for changepassword.xhtml -->
+
 <!ENTITY setPassword.title  "Définir le mot de passe principal">
 <!ENTITY setPassword.tokenName.label "Périphérique de sécurité ">
 <!ENTITY setPassword.oldPassword.label "Ancien mot de passe">
@@ -7,12 +7,12 @@
 <!ENTITY setPassword.reenterPassword.label "Saisissez-le à nouveau">
 <!ENTITY setPassword.meter.label "Mesure de la qualité du mot de passe :">
 
-<!-- Values for resetpassword.xhtml -->
+
 <!ENTITY resetPasswordButtonLabel "Effacer">
 <!ENTITY resetPassword.title  "Effacer le mot de passe principal">
 <!ENTITY resetPassword.text  "Si vous effacez votre mot de passe principal, tous vos mots de passe web et courrier, vos données de formulaires, vos certificats personnels et vos clés privées seront oubliés. Voulez-vous vraiment supprimer le mot de passe principal ?">
 
-<!-- Downloading a cert -->
+
 <!ENTITY downloadCert.title "Téléchargement du certificat">
 <!ENTITY downloadCert.message1 "On vous a demandé de confirmer une nouvelle autorité de certification (AC).">
 <!ENTITY downloadCert.trustSSL "Confirmer cette AC pour identifier des sites web.">
@@ -21,7 +21,7 @@
 <!ENTITY downloadCert.viewCert.label "Voir">
 <!ENTITY downloadCert.viewCert.text "Examiner le certificat d’AC">
 
-<!-- Strings for the SSL client auth ask dialog -->
+
 <!ENTITY clientAuthAsk.title "Requête d’identification d’utilisateur">
 <!ENTITY clientAuthAsk.message1 "Ce site vous demande de vous identifier avec un certificat de sécurité :">
 <!ENTITY clientAuthAsk.message2 "Choisir un certificat à présenter comme identification :">
@@ -33,7 +33,7 @@
 <!ENTITY pkcs12.setpassword.label2 "Mot de passe de sauvegarde du certificat (encore) :">
 <!ENTITY pkcs12.setpassword.reminder "Important : si vous avez oublié votre mot de passe de sécurité, vous ne pourrez plus importer cette sauvegarde plus tard. Veuillez le conserver en un lieu sûr.">
 
-<!-- Strings for protectedAuth dialog -->
+
 <!ENTITY protectedAuth.title "Authentification protégée par jeton">
 <!ENTITY protectedAuth.msg "Veuillez vous authentifier au jeton. La méthode d’authentification dépend du type de votre jeton.">
 <!ENTITY protectedAuth.tokenName.label "Jeton :">

@@ -1,8 +1,8 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Strings used for device manager
+
+
+
+
 devmgr =
     .title = Gestionnaire de périphériques
     .style = width: 67em; height: 32em;
@@ -44,7 +44,7 @@ devmgr-button-disable-fips =
     .label = Désactiver FIPS
     .accesskey = F
 
-## Strings used for load device
+
 load-device =
     .title = Charger le pilote du périphérique PKCS#11
 
@@ -65,7 +65,7 @@ load-device-browse =
     .label = Parcourir…
     .accesskey = P
 
-## Token Manager
+
 
 devinfo-status =
     .label = Statut
@@ -117,11 +117,11 @@ fips-nonempty-password-required = Le mode FIPS exige que vous ayez défini un mo
 unable-to-toggle-fips = Impossible de modifier le mode FIPS pour le périphérique de sécurité. Nous vous recommandons de quitter et de redémarrer cette application.
 load-pk11-module-file-picker-title = Sélectionner un pilote de périphérique PKCS#11 à charger
 
-# Load Module Dialog
+
 load-module-help-empty-module-name =
     .value = Le nom du module ne peut pas être vide.
 
-# Do not translate 'Root Certs'
+
 load-module-help-root-certs-module-name =
     .value = « Root Certs » est réservé et ne peut pas être utilisé comme nom de module.
 

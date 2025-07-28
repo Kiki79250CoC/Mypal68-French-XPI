@@ -3,8 +3,8 @@
 
 
 
-### Notice: If you're updating this list, you should also
-###         update the list in mozIntl.js.
+
+
 
 region-name-ad = Andorre
 region-name-ae = Émirats arabes unis

@@ -73,7 +73,7 @@
 <!ENTITY toggleReaderMode.win.keycode "VK_F9">
 
 <!ENTITY togglePictureInPicture.key2 "}">
-<!ENTITY togglePictureInPicture.key "]">  <!-- } is above this key on many keyboards -->
+<!ENTITY togglePictureInPicture.key "]">
 
 <!ENTITY fxaSignIn.label "Se connecter à &syncBrand.shortName.label;">
 <!ENTITY fxaSignedIn.tooltip "Ouvrir les préférences de &syncBrand.shortName.label;">
@@ -155,7 +155,7 @@
 
 <!ENTITY searchItem.title             "Rechercher">
 
-<!-- Toolbar items -->
+
 <!ENTITY homeButton.label             "Accueil">
 <!ENTITY homeButton.defaultPage.tooltip "Page d’accueil de &brandShortName;">
 

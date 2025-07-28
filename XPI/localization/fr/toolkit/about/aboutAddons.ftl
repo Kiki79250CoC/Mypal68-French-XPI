@@ -117,17 +117,17 @@ detail-update-manual =
     .label = Désactivées
     .tooltiptext = Ne pas installer automatiquement les mises à jour
 
-# Used as a description for the option to allow or block an add-on in private windows.
+
 detail-private-browsing-label = Exécution dans les fenêtres privées
 
 detail-private-browsing-description2 = Si autorisée, l’extension aura accès à vos activités en ligne pendant la navigation privée. <label data-l10n-name="detail-private-browsing-learn-more">En savoir plus</label>
 
-# Some add-ons may elect to not run in private windows by setting incognito: not_allowed in the manifest.  This
-# cannot be overridden by the user.
+
+
 detail-private-disallowed-label = Non autorisé dans les fenêtres privées
 detail-private-disallowed-description = Cette extension ne s’exécute pas en navigation privée. <label data-l10n-name="detail-private-browsing-learn-more">En savoir plus</label>
 
-# Some special add-ons are privileged, run in private windows automatically, and this permission can't be revoked
+
 detail-private-required-label = Nécessite un accès aux fenêtres privées
 detail-private-required-description = Cette extension a accès à vos activités en ligne pendant la navigation privée. <label data-l10n-name="detail-private-browsing-learn-more">En savoir plus</label>
 
@@ -197,7 +197,7 @@ extensions-view-available-updates =
     .name = À mettre à jour
     .tooltiptext = { extensions-view-available-updates.name }
 
-## These are global warnings
+
 
 extensions-warning-safe-mode = Tous les modules complémentaires ont été désactivés par le mode sans échec.
 extensions-warning-check-compatibility = La vérification de compatibilité des modules complémentaires est désactivée. Vous avez peut-être des modules complémentaires incompatibles.
@@ -208,38 +208,38 @@ extensions-warning-update-security-button = Enable
     .title = Activer la vérification de mises à jour de sécurité pour les modules complémentaires
 
 
-## Strings connected to add-on updates
+
 
 extensions-updates-check-for-updates = Rechercher des mises à jour
     .accesskey = R
 extensions-updates-view-updates = Afficher les mises à jour récentes
     .accesskey = A
 
-# This menu item is a checkbox that toggles the default global behavior for
-# add-on update checking.
+
+
 
 extensions-updates-update-addons-automatically = Mettre à jour les modules automatiquement
     .accesskey = M
 
-## Specific add-ons can have custom update checking behaviors ("Manually",
-## "Automatically", "Use default global behavior"). These menu items reset the
-## update checking behavior for all add-ons to the default global behavior
-## (which itself is either "Automatically" or "Manually", controlled by the
-## extensions-updates-update-addons-automatically.label menu item).
+
+
+
+
+
 
 extensions-updates-reset-updates-to-automatic = Activer la mise à jour automatique pour tous les modules
     .accesskey = c
 extensions-updates-reset-updates-to-manual = Désactiver la mise à jour automatique pour tous les modules
     .accesskey = D
 
-## Status messages displayed when updating add-ons
+
 
 extensions-updates-updating = Mise à jour des modules
 extensions-updates-installed = Vos modules ont été mis à jour.
 extensions-updates-none-found = Aucune mise à jour disponible
 extensions-updates-manual-updates-found = Afficher les mises à jour disponibles
 
-## Add-on install/debug strings for page options menu
+
 
 addon-install-from-file = Installer un module complémentaire depuis un fichier…
     .accesskey = I
@@ -248,9 +248,9 @@ addon-install-from-file-filter-name = Modules complémentaires
 addon-open-about-debugging = Déboguer des modules
     .accesskey = b
 
-## Extension shortcut management
 
-# This is displayed in the page options menu
+
+
 manage-extensions-shortcuts = Gérer les raccourcis d’extensions
     .accesskey = G
 
@@ -269,17 +269,17 @@ shortcuts-invalid = Combinaison invalide
 shortcuts-letter = Saisissez une lettre
 shortcuts-system = Impossible de remplacer un raccourci { -brand-short-name }
 
-# String displayed in warning label when there is a duplicate shortcut
+
 shortcuts-duplicate = Raccourci en doublon
 
-# String displayed when a keyboard shortcut is already assigned to more than one add-on
-# Variables:
-#   $shortcut (string) - Shortcut string for the add-on
+
+
+
 shortcuts-duplicate-warning-message = { $shortcut } est utilisé comme raccourci dans plusieurs cas. Les raccourcis en doublon peuvent provoquer un comportement imprévisible.
 
-# String displayed when a keyboard shortcut is already used by another add-on
-# Variables:
-#   $addon (string) - Name of the add-on
+
+
+
 shortcuts-exists = Déjà utilisé par { $addon }
 
 shortcuts-card-expand-button =
@@ -294,34 +294,34 @@ go-back-button =
 
 privacy-policy = Politique de confidentialité
 
-# Refers to the author of an add-on, shown below the name of the add-on.
-# Variables:
-#   $author (string) - The name of the add-on developer.
+
+
+
 created-by-author = par <a data-l10n-name="author">{ $author }</a>
-# Shows the number of daily users of the add-on.
-# Variables:
-#   $dailyUsers (number) - The number of daily users.
+
+
+
 user-count = Utilisateurs : { $dailyUsers }
 install-extension-button = Ajouter à { -brand-product-name }
 install-theme-button = Installer le thème
-# The label of the button that appears after installing an add-on. Upon click,
-# the detailed add-on view is opened, from where the add-on can be managed.
+
+
 manage-addon-button = Gérer
 find-more-addons = Découvrir davantage de modules
 
-# This is a label for the button to open the "more options" menu, it is only
-# used for screen readers.
+
+
 addon-options-button =
     .aria-label = Plus d'options
 
-## Add-on actions
+
 remove-addon-button = Supprimer
-# The link will always be shown after the other text.
+
 remove-addon-disabled-button = Suppression impossible <a data-l10n-name="link">Pourquoi ?</a>
 disable-addon-button = Désactiver
 enable-addon-button = Activer
-# This is used for the toggle on the extension card, it's a checkbox and this
-# is always its label.
+
+
 extension-enable-addon-button-label =
     .aria-label = Activer
 preferences-addon-button =
@@ -357,21 +357,21 @@ addon-detail-version-label = Version
 addon-detail-last-updated-label = Dernière mise à jour
 addon-detail-homepage-label = Page d’accueil
 
-# The average rating that the add-on has received.
-# Variables:
-#   $rating (number) - A number between 0 and 5. The translation should show at most one digit after the comma.
+
+
+
 five-star-rating =
     .title = Noté { NUMBER($rating, maximumFractionDigits: 1) } sur 5
 
-# This string is used to show that an add-on is disabled.
-# Variables:
-#   $name (string) - The name of the add-on
+
+
+
 addon-name-disabled = { $name } (désactivé)
 
-## Pending uninstall message bar
 
-# Variables:
-#   $addon (string) - Name of the add-on
+
+
+
 pending-uninstall-description = <span data-l10n-name="addon-name">{ $addon }</span> a été supprimé.
 pending-uninstall-undo-button = Annuler
 
@@ -382,8 +382,8 @@ addon-detail-updates-radio-off = Désactivées
 addon-detail-update-check-label = Rechercher des mises à jour
 install-update-button = Mettre à jour
 
-# This is the tooltip text for the private browsing badge in about:addons. The
-# badge is the private browsing icon included next to the extension's name.
+
+
 addon-badge-private-browsing-allowed =
     .title = Autorisé dans les fenêtres privées
 addon-detail-private-browsing-help = Lorsqu’elle est autorisée, l’extension a accès à vos activités en ligne lors d’une navigation privée. <a data-l10n-name="learn-more">En savoir plus</a>
@@ -398,7 +398,7 @@ release-notes-error = Désolé, une erreur s’est produite lors du chargement d
 
 addon-permissions-empty = Cette extension ne nécessite aucune autorisation
 
-## Page headings
+
 
 extension-heading = Gestion de vos extensions
 theme-heading = Gestion de vos thèmes
