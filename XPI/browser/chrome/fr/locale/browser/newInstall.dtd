@@ -1,4 +1,12 @@
 
+
+
+
+
+
+
+
+
 <!ENTITY window.title "Informations importantes">
 <!ENTITY window.style "width: 490px">
 <!ENTITY sync "Pour synchroniser les informations que vous avez déjà enregistrées dans Firefox avec cette installation de &brandShortName;, connectez-vous avec votre &syncBrand.fxAccount.label;.">

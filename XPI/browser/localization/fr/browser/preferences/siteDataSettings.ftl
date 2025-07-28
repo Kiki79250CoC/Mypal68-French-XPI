@@ -1,6 +1,6 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+
 
 
 ## Settings
@@ -23,6 +23,9 @@ site-data-column-storage =
 site-data-column-last-used =
     .label = Dernière utilisation
 
+
+site-data-local-file-host = (fichier local)
+
 site-data-remove-selected =
     .label = Supprimer les sites sélectionnés
     .accesskey = S
@@ -35,9 +38,9 @@ site-data-button-save =
     .label = Enregistrer les changements
     .accesskey = E
 
-# Variables:
-#   $value (Number) - Value of the unit (for example: 4.6, 500)
-#   $unit (String) - Name of the unit (for example: "bytes", "KB")
+
+
+
 site-storage-usage =
     .value = { $value } { $unit }
 site-storage-persistent =

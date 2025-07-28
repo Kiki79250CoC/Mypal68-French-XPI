@@ -1,6 +1,3 @@
-<!-- This Source Code Form is subject to the terms of the Mozilla Public
-   - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
 
 <!ENTITY loadError.label "Erreur de chargement de la page">
 <!ENTITY retry.label "Réessayer">
@@ -9,8 +6,7 @@
 
 <!ENTITY connectionFailure.title "La connexion a échoué">
 <!ENTITY connectionFailure.longDesc "
-<p>Bien que le site semble valide, le navigateur n’a pas pu établir de
-connexion.</p>
+<p>Bien que le site semble valide, le navigateur n’a pas pu établir de connexion.</p>
 <ul>
   <li> Le site est peut-être temporairement indisponible ? Réessayez plus tard.</li>
   <li>D’autres sites sont aussi inaccessibles ? Vérifiez la connexion au réseau
@@ -196,8 +192,6 @@ refusé la connexion.</p>
 <!ENTITY remoteXUL.longDesc "<p><ul><li>Veuillez contacter les propriétaires du site web pour les informer de ce problème.</li></ul></p>">
 
 <!ENTITY inadequateSecurityError.title "La connexion n’est pas sécurisée">
-<!-- LOCALIZATION NOTE (inadequateSecurityError.longDesc) - Do not translate
-     "NS_ERROR_NET_INADEQUATE_SECURITY". -->
 <!ENTITY inadequateSecurityError.longDesc "<p><span class='hostname'></span> fait appel à des technologies de sécurisation obsolètes et vulnérables aux attaques. Un attaquant pourrait facilement révéler des informations que vous pensiez être sécurisées. L’administrateur du site web devra d’abord corriger le serveur avant que vous puissiez visiter le site.</p><p>Code d’erreur : NS_ERROR_NET_INADEQUATE_SECURITY</p>">
 
 <!ENTITY blockedByPolicy.title "Page bloquée">

@@ -1,13 +1,13 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## The Enterprise Policies feature is aimed at system administrators
-## who want to deploy these settings across several Firefox installations
-## all at once. This is traditionally done through the Windows Group Policy
-## feature, but the system also supports other forms of deployment.
-## These are short descriptions for individual policies, to be displayed
-## in the documentation section in about:policies.
+
+
+
+
+
+
+
+
+
 
 policy-3rdparty = Permet de fixer les stratégies auxquelles les WebExtensions peuvent accéder par chrome.storage.managed.
 
@@ -42,8 +42,6 @@ policy-DisableAppUpdate = Empêche le navigateur de se mettre à jour.
 policy-DisableBuiltinPDFViewer = Désactive PDF.js, la visionneuse PDF intégrée dans { -brand-short-name }.
 
 policy-DisableDeveloperTools = Bloque l’accès aux outils de développement.
-
-policy-DisableFeedbackCommands = Désactive les commandes permettant d’envoyer des commentaires dans le menu d’aide (Donner votre avis et Signaler un site trompeur).
 
 policy-DisableFirefoxAccounts = Désactive les services basés sur un { -fxaccount-brand-name }, y compris la synchronisation.
 
@@ -88,15 +86,15 @@ policy-DontCheckDefaultBrowser = Désactive la vérification du navigateur par d
 
 policy-DownloadDirectory = Permet de définir et verrouiller le répertoire de téléchargement.
 
-# “lock” means that the user won’t be able to change this setting
+
 policy-EnableTrackingProtection = Active ou désactive le blocage de contenu et permet de verrouiller ce choix.
 
-# “lock” means that the user won’t be able to change this setting
+
 policy-EncryptedMediaExtensions = Activez ou désactivez les extensions multimédias chiffrées et éventuellement verrouillez-les.
 
-# A “locked” extension can’t be disabled or removed by the user. This policy
-# takes 3 keys (“Install”, ”Uninstall”, ”Locked”), you can either keep them in
-# English or translate them as verbs.
+
+
+
 policy-Extensions = Installe, désinstalle ou verrouille les extensions. L’option d’installation accepte des URL ou des chemins comme paramètres. Les options Désinstaller et Verrouiller utilisent les identifiants des extensions.
 
 policy-ExtensionSettings = Gére tous les aspects de l’installation d’extensions.
@@ -109,7 +107,7 @@ policy-FlashPlugin = Autorise ou non l’utilisation du plugin Flash.
 
 policy-HardwareAcceleration = Si faux, désactive l’accélération matérielle.
 
-# “lock” means that the user won’t be able to change this setting
+
 policy-Homepage = Définit la page d’accueil et permet de la verrouiller.
 
 policy-InstallAddonsPermission = Autorise certains sites web à installer des extensions.
@@ -154,7 +152,7 @@ policy-SearchEngines = Configure les paramètres du moteur de recherche. Cette p
 
 policy-SearchSuggestEnabled = Permet d’activer ou de désactiver les suggestions de recherche.
 
-# For more information, see https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
+
 policy-SecurityDevices = Permet d’installer des modules PKCS #11.
 
 policy-SSLVersionMax = Définit la version maximale de SSL à utiliser.
@@ -165,5 +163,5 @@ policy-SupportMenu = Ajoute une entrée personnalisée au menu d’aide pour l�
 
 policy-UserMessaging = Ne pas montrer certains messages à l'utilisateur.
 
-# “format” refers to the format used for the value of this policy.
+
 policy-WebsiteFilter = Bloque l’accès à des sites web. Voir la documentation pour plus de détails sur le format.

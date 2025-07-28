@@ -1,4 +1,7 @@
 
+
+
+
 privatebrowsingpage-open-private-window-label = Ouvrir une fenêtre de navigation privée
     .accesskey = u
 about-private-browsing-search-placeholder = Rechercher sur le Web

@@ -1,13 +1,20 @@
 
+
+
+
 <!ENTITY position.label             "Position :">
 <!ENTITY tile.label                 "Mosaïque">
 <!ENTITY center.label               "Centrer">
 <!ENTITY stretch.label              "Étirer">
 <!ENTITY fill.label                 "Remplir">
 <!ENTITY fit.label                  "Ajuster">
+
+
+
+
+
 <!ENTITY span.label                 "Étendre">
 <!ENTITY color.label                "Couleur :">
-<!ENTITY setDesktopBackground.title "Choisir comme fond d’écran">
+<!ENTITY setDesktopBackground.title "Définir en tant que fond d’écran">
 <!ENTITY openDesktopPrefs.label     "Ouvrir les préférences du Bureau">
-<!ENTITY closeWindow.key            "w">
 <!ENTITY previewUnavailable         "Aperçu non disponible">

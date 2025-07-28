@@ -1,4 +1,11 @@
 
+
+
+
+
+
+
+
 title = Informations importantes
 heading = Modifications apportées à votre profil { -brand-short-name }
 

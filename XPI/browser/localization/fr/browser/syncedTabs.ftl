@@ -1,6 +1,6 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+
 
 synced-tabs-sidebar-title = Onglets synchronisés
 synced-tabs-sidebar-noclients-subtitle = Vous souhaitez afficher ici les onglets de vos autres appareils ?

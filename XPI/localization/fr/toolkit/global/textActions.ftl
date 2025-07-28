@@ -1,24 +1,31 @@
-### This file contains the entities needed for the 'edit' menu
-### It's currently only used for the Browser Console
 
-editmenu-undo =
+
+
+
+text-action-undo =
     .label = Annuler
     .accesskey = u
-editmenu-redo =
+
+text-action-redo =
     .label = Rétablir
     .accesskey = R
-editmenu-cut =
+
+text-action-cut =
     .label = Couper
     .accesskey = C
-editmenu-copy =
+
+text-action-copy =
     .label = Copier
     .accesskey = p
-editmenu-paste =
+
+text-action-paste =
     .label = Coller
     .accesskey = o
-editmenu-delete =
+
+text-action-delete =
     .label = Supprimer
-    .accesskey = S
-editmenu-select-all =
+    .accesskey = D
+
+text-action-select-all =
     .label = Tout sélectionner
     .accesskey = T

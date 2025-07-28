@@ -1,4 +1,7 @@
 
+
+
+
 aboutDialog-title =
     .title = À propos de { -brand-full-name }
 
@@ -19,6 +22,7 @@ update-applying = Application de la mise à jour…
 update-failed = La mise à jour a échoué. <label data-l10n-name="failed-link">Télécharger la dernière version</label>
 update-failed-main = La mise à jour a échoué. <a data-l10n-name="failed-link-main">Télécharger la dernière version</a>
 
+
 update-adminDisabled = Les mises à jour sont désactivées par votre administrateur système
 update-noUpdatesFound = { -brand-short-name } est à jour
 update-otherInstanceHandlingUpdates = { -brand-short-name } est mis à jour par une autre instance
@@ -33,5 +37,15 @@ bottomLinks-license = Informations de licence
 bottomLinks-rights = Droits de l’utilisateur
 bottomLinks-privacy = Politique de confidentialité
 
+
+
+
+
 aboutDialog-version = v{ $version } ({ $bits } bits)
+
+
+
+
+
+
 aboutDialog-version-nightly = v{ $version } ({ $isodate }) ({ $bits } bits)

@@ -1,4 +1,7 @@
 
+
+
+
 fxa-pair-device-dialog =
     .title = Connecter un autre appareil
     .style = width: 26em; min-height: 35em;

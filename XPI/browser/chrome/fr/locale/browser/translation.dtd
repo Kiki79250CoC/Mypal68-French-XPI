@@ -1,10 +1,38 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!ENTITY translation.thisPageIsIn.label         "Cette page est en">
 <!ENTITY translation.translateThisPage.label    "Traduire cette page ?">
 <!ENTITY translation.translate.button           "Traduire">
 <!ENTITY translation.notNow.button              "Plus tard">
 
 <!ENTITY translation.translatingContent.label   "Traduction du contenu de la page…">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!ENTITY translation.translatedFrom.label       "Cette page en">
 <!ENTITY translation.translatedTo.label         "a été traduite en">
@@ -20,12 +48,11 @@
 
 <!ENTITY translation.options.menu               "Options">
 
+
+
+
+
 <!ENTITY translation.options.neverForSite.label "Ne jamais traduire ce site">
 <!ENTITY translation.options.neverForSite.accesskey "e">
 <!ENTITY translation.options.preferences.label  "Préférences de traduction">
 <!ENTITY translation.options.preferences.accesskey "t">
-
-<!ENTITY translation.options.attribution.beforeLogo "Traductions fournies par">
-<!ENTITY translation.options.attribution.afterLogo "">
-
-<!ENTITY translation.options.attribution.yandexTranslate "Traductions fournies par Yandex.Translate">

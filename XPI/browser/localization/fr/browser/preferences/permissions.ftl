@@ -1,6 +1,6 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+
 
 permissions-window =
     .title = Exceptions
@@ -76,13 +76,6 @@ permissions-capabilities-listitem-allow-session =
 
 permissions-invalid-uri-title = Nom d’hôte invalide
 permissions-invalid-uri-label = Veuillez saisir un nom d’hôte valide
-
-## Exceptions - Tracking Protection
-
-permissions-exceptions-content-blocking-window =
-    .title = Exceptions - Blocage de contenu
-    .style = { permissions-window.style }
-permissions-exceptions-content-blocking-desc = Vous avez désactivé le blocage de contenu sur ces sites.
 
 ## Exceptions - Cookies
 

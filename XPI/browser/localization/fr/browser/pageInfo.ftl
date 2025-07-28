@@ -1,9 +1,15 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/. --
+
+
+
 
 page-info-window =
     .style = width: 650px; min-height: 500px;
+
+copy =
+    .key = C
+menu-select-all =
+    .label = Copier
+    .accesskey = C
 
 select-all =
     .key = A
@@ -113,11 +119,11 @@ security-view-technical =
 help-button =
     .label = Aide
 
-## These strings are used to tell the user if the website is storing cookies
-## and data on the users computer in the security tab of pageInfo
-## Variables:
-##   $value (number) - Amount of data being stored
-##   $unit (string) - The unit of data being stored (Usually KB)
+
+
+
+
+
 security-site-data-cookies = Oui, des cookies et { $value } { $unit } de données de sites
 security-site-data-only = Oui, { $value } { $unit } de données de sites
 
@@ -125,7 +131,8 @@ security-site-data-cookies-only = Oui, des cookies
 security-site-data-no = Non
 
 image-size-unknown = Inconnu
-not-set-verified-by = Non spécifié
+page-info-not-specified =
+    .value = Non spécifié
 not-set-alternative-text = Non spécifié
 not-set-date = Non spécifié
 media-img = Image
@@ -148,7 +155,8 @@ general-quirks-mode =
     .value = Mode de compatibilité (quirks)
 general-strict-mode =
     .value = Mode de respect des standards
-security-no-owner = Ce site web ne fournit pas d’informations sur son propriétaire.
+page-info-security-no-owner =
+    .value = Ce site web ne fournit pas d’informations sur son propriétaire.
 media-select-folder = Sélectionner un dossier où enregistrer les images
 media-unknown-not-cached =
     .value = Inconnu (pas dans le cache)
@@ -156,10 +164,10 @@ permissions-use-default =
     .label = Permissions par défaut
 security-no-visits = Non
 
-# This string is used to display the number of meta tags
-# in the General Tab
-# Variables:
-#   $tags (number) - The number of meta tags
+
+
+
+
 general-meta-tags =
     .value =
         { $tags ->
@@ -167,10 +175,10 @@ general-meta-tags =
            *[other] Métaéléments ({ $tags } balises)
         }
 
-# This string is used to display the number of times
-# the user has visited the website prior
-# Variables:
-#   $visits (number) - The number of previous visits
+
+
+
+
 security-visits-number =
     { $visits ->
         [0] Non
@@ -178,69 +186,69 @@ security-visits-number =
        *[other] Oui, { $visits } fois
     }
 
-# This string is used to display the size of a media file
-# Variables:
-#   $kb (number) - The size of an image in Kilobytes
-#   $bytes (number) - The size of an image in Bytes
+
+
+
+
 properties-general-size =
-    .value =
-        { $bytes ->
+    .value = { $bytes ->
             [one] { $kb } Ko ({ $bytes } octet)
            *[other] { $kb } Ko ({ $bytes } octets)
-        }
-# This string is used to display the type and number
-# of frames of a animated image
-# Variables:
-#   $type (string) - The type of a animated image
-#   $frames (number) - The number of frames in an animated image
+    }
+
+
+
+
+
+
 media-animated-image-type =
-    .value =
-        { $frames ->
+    .value = { $frames ->
             [one] Image { $type } (animée, { $frames } calque)
            *[other] Image { $type } (animée, { $frames } calques)
-        }
-# This string is used to display the type of
-# an image
-# Variables:
-#   $type (string) - The type of an image
+    }
+
+
+
+
+
 media-image-type =
     .value = Image { $type }
 
-# This string is used to display the size of a scaled image
-# in both scaled and unscaled pixels
-# Variables:
-#   $dimx (number) - The horizontal size of an image
-#   $dimy (number) - The vertical size of an image
-#   $scaledx (number) - The scaled horizontal size of an image
-#   $scaledy (number) - The scaled vertical size of an image
+
+
+
+
+
+
+
 media-dimensions-scaled =
     .value = { $dimx }px × { $dimy }px (redimensionné à { $scaledx }px × { $scaledy }px)
 
-# This string is used to display the size of an image in pixels
-# Variables:
-#   $dimx (number) - The horizontal size of an image
-#   $dimy (number) - The vertical size of an image
+
+
+
+
 media-dimensions =
     .value = { $dimx }px × { $dimy }px
 
-# This string is used to display the size of a media
-# file in kilobytes
-# Variables:
-#   $size (number) - The size of the media file in kilobytes
+
+
+
+
 media-file-size = { $size } Ko
 
-# This string is used to display the website name next to the
-# "Block Images" checkbox in the media tab
-# Variables:
-#   $website (string) - The website name
+
+
+
+
 media-block-image =
     .label = Bloquer les images en provenance de { $website }
     .accesskey = B
 
-# This string is used to display the URL of the website on top of the
-# pageInfo dialog box
-# Variables:
-#   $website (string) - The url of the website pageInfo is getting info for
+
+
+
+
 page-info-page =
     .title = Informations sur la page - { $website }
 page-info-frame =

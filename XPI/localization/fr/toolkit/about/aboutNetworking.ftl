@@ -1,6 +1,6 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+
 
 title = Informations réseau
 warning = Cette fonctionnalité est très expérimentale. À n’utiliser que sous la surveillance d’un adulte.
@@ -32,6 +32,8 @@ bytes-sent = Octets envoyés
 bytes-received = Octets reçus
 logging = Journalisation
 log-tutorial = Consultez <a data-l10n-name="logging">HTTP Logging</a> pour obtenir des informations sur l’utilisation de cet outil.
+
+
 current-log-file = Fichier de journalisation actuel :
 current-log-modules = Modules de journalisation actuels :
 set-log-file = Définir un fichier de journalisation

@@ -1,20 +1,6 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-do-not-track-description = Envoyer aux sites web un signal « Ne pas me pister » indiquant que vous ne souhaitez pas être pisté
-do-not-track-learn-more = En savoir plus
-do-not-track-option-default-content-blocking-known =
-    .label = Seulement quand { -brand-short-name } est paramétré pour bloquer les traqueurs connus
-do-not-track-option-always =
-    .label = Toujours
 
-pref-page =
-    .title =
-        { PLATFORM() ->
-            [windows] Options
-           *[other] Préférences
-        }
+
 
 pref-page-title =
     { PLATFORM() ->
@@ -22,14 +8,14 @@ pref-page-title =
        *[other] Préférences
     }
 
-# This is used to determine the width of the search field in about:preferences,
-# in order to make the entire placeholder string visible
-#
-# Please keep the placeholder string short to avoid truncation.
-#
-# Notice: The value of the `.style` attribute is a CSS string, and the `width`
-# is the name of the CSS property. It is intended only to adjust the element's width.
-# Do not translate.
+
+
+
+
+
+
+
+
 search-input-box =
     .style = width: 19em
     .placeholder =
@@ -78,56 +64,56 @@ should-restart-ok = Redémarrer { -brand-short-name } maintenant
 cancel-no-restart-button = Annuler
 restart-later = Redémarrer plus tard
 
-## Extension Control Notifications
-##
-## These strings are used to inform the user
-## about changes made by extensions to browser settings.
-##
-## <img data-l10n-name="icon"/> is going to be replaced by the extension icon.
-##
-## Variables:
-##   $name (String): name of the extension
 
-# This string is shown to notify the user that their home page
-# is being controlled by an extension.
+
+
+
+
+
+
+
+
+
+
+
 extension-controlled-homepage-override = Une extension, <img data-l10n-name="icon"/> { $name }, contrôle votre page d’accueil.
 
-# This string is shown to notify the user that their new tab page
-# is being controlled by an extension.
+
+
 extension-controlled-new-tab-url = Une extension, <img data-l10n-name="icon"/> { $name }, contrôle la page Nouvel onglet.
 
-# This string is shown to notify the user that their notifications permission
-# is being controlled by an extension.
+
+
 extension-controlled-web-notifications = Une extension, <img data-l10n-name="icon"/> { $name }, contrôle ce paramètre.
 
-# This string is shown to notify the user that the default search engine
-# is being controlled by an extension.
+
+
 extension-controlled-default-search = Une extension, <img data-l10n-name="icon"/> { $name }, a défini votre moteur de recherche par défaut.
 
-# This string is shown to notify the user that Container Tabs
-# are being enabled by an extension.
+
+
 extension-controlled-privacy-containers = Une extension, <img data-l10n-name="icon"/> { $name }, a besoin des onglets contextuels.
 
-# This string is shown to notify the user that their content blocking "All Detected Trackers"
-# preferences are being controlled by an extension.
+
+
 extension-controlled-websites-content-blocking-all-trackers = Une extension, <img data-l10n-name="icon"/> { $name }, contrôle ce paramètre.
 
-# This string is shown to notify the user that their proxy configuration preferences
-# are being controlled by an extension.
+
+
 extension-controlled-proxy-config = Une extension, <img data-l10n-name="icon"/> { $name }, contrôle la façon dont { -brand-short-name } se connecte à Internet.
 
-# This string is shown after the user disables an extension to notify the user
-# how to enable an extension that they disabled.
-#
-# <img data-l10n-name="addons-icon"/> will be replaced with Add-ons icon
-# <img data-l10n-name="menu-icon"/> will be replaced with Menu icon
+
+
+
+
+
 extension-controlled-enable = Pour activer l’extension, sélectionnez <img data-l10n-name="addons-icon"/> Modules complémentaires dans le menu <img data-l10n-name="menu-icon"/>.
 
 ## Preferences UI Search Results
 
 search-results-header = Résultats de la recherche
 
-# `<span data-l10n-name="query"></span>` will be replaced by the search term.
+
 search-results-empty-message =
     { PLATFORM() ->
         [windows] Désolé, il n’y a aucun résultat dans les options pour « <span data-l10n-name="query"></span> ».
@@ -140,10 +126,10 @@ search-results-help-link = Besoin d’aide ? Consultez <a data-l10n-name="url">
 
 startup-header = Démarrage
 
-# { -brand-short-name } will be 'Firefox Developer Edition',
-# since this setting is only exposed in Firefox Developer Edition
+
+
 separate-profile-mode =
-    .label = Autoriser { -brand-short-name } et Firefox à s’exécuter en parallèle
+    .label = Autoriser { -brand-short-name } à s’exécuter en parallèle
 use-firefox-sync = Astuce : Des profils distincts sont utilisés. Vous pouvez tirer parti de { -sync-brand-short-name } pour partager vos données entre eux.
 get-started-not-logged-in = Se connecter à { -sync-brand-short-name }…
 get-started-configured = Ouvrir les préférences de { -sync-brand-short-name }
@@ -221,8 +207,8 @@ containers-disable-alert-cancel-button = Garder activé
 
 containers-remove-alert-title = Supprimer ce contexte ?
 
-# Variables:
-#   $count (Number) - Number of tabs that will be closed.
+
+
 containers-remove-alert-msg =
     { $count ->
         [one] Si vous supprimez ce contexte maintenant, { $count } onglet contextuel sera fermé. Voulez-vous vraiment supprimer ce contexte ?
@@ -271,8 +257,8 @@ translate-web-pages =
     .label = Traduire le contenu web
     .accesskey = w
 
-# The <img> element is replaced by the logo of the provider
-# used to provide machine translations for web pages.
+
+
 translate-attribution = Traductions fournies par <img data-l10n-name="logo"/>
 
 translate-exceptions =
@@ -324,19 +310,19 @@ applications-action-column =
     .label = Action
     .accesskey = A
 
-# Variables:
-#   $extension (String) - file extension (e.g .TXT)
+
+
 applications-file-ending = Fichier { $extension }
 applications-action-save =
     .label = Enregistrer le fichier
 
-# Variables:
-#   $app-name (String) - Name of an application (e.g Adobe Acrobat)
+
+
 applications-use-app =
     .label = Utiliser avec { $app-name }
 
-# Variables:
-#   $app-name (String) - Name of an application (e.g Adobe Acrobat)
+
+
 applications-use-app-default =
     .label = Utiliser avec { $app-name } (par défaut)
 
@@ -350,30 +336,30 @@ applications-always-ask =
     .label = Toujours demander
 applications-type-pdf = Portable Document Format (PDF)
 
-# Variables:
-#   $type (String) - the MIME type (e.g application/binary)
+
+
 applications-type-pdf-with-type = { applications-type-pdf } ({ $type })
 
-# Variables:
-#   $type-description (String) - Description of the type (e.g "Portable Document Format")
-#   $type (String) - the MIME type (e.g application/binary)
+
+
+
 applications-type-description-with-type = { $type-description } ({ $type })
 
-# Variables:
-#   $extension (String) - file extension (e.g .TXT)
-#   $type (String) - the MIME type (e.g application/binary)
+
+
+
 applications-file-ending-with-type = { applications-file-ending } ({ $type })
 
-# Variables:
-#   $plugin-name (String) - Name of a plugin (e.g Adobe Flash)
+
+
 applications-use-plugin-in =
     .label = Utiliser avec { $plugin-name } (in { -brand-short-name })
 applications-preview-inapp =
     .label = Prévisualiser avec { -brand-short-name }
 
-## The strings in this group are used to populate
-## selected label element based on the string from
-## the selected menu item.
+
+
+
 
 applications-use-plugin-in-label =
     .value = { applications-use-plugin-in.label }
@@ -396,7 +382,7 @@ applications-use-app-default-label =
 applications-use-other-label =
     .value = { applications-use-other.label }
 
-##
+
 
 drm-content-header = Contenu protégé par des composants de gestion des droits numériques (DRM)
 
@@ -429,14 +415,10 @@ update-application-check-choose =
 update-application-manual =
     .label = Ne jamais vérifier les mises à jour (déconseillé)
     .accesskey = N
-update-application-warning-cross-user-setting = Ce paramètre s’appliquera à tous les comptes Windows et profils { -brand-short-name } utilisant cette installation de { -brand-short-name }.
+
 update-application-use-service =
     .label = Utiliser un service en arrière-plan pour installer les mises à jour
     .accesskey = s
-
-update-enable-search-update =
-    .label = Mettre à jour automatiquement les moteurs de recherche
-    .accesskey = r
 
 ## General Section - Performance
 
@@ -460,8 +442,8 @@ performance-limit-content-process-option = Nombre maximum de processus de conten
 performance-limit-content-process-enabled-desc = Davantage de processus de contenu peut améliorer les performances lors de l’utilisation de plusieurs onglets, cependant la consommation de mémoire sera plus importante.
 performance-limit-content-process-blocked-desc = Modifier le nombre de processus de contenu est possible uniquement avec la version multiprocessus de { -brand-short-name }. <a data-l10n-name="learn-more">Apprendre à vérifier si le mode multiprocessus est activé</a>
 
-# Variables:
-#   $num - default value of the `dom.ipc.processCount` pref.
+
+
 performance-default-content-process-count =
     .label = { $num } (par défaut)
 
@@ -517,8 +499,8 @@ home-restore-defaults =
     .label = Configuration par défaut
     .accesskey = C
 
-# "Firefox" should be treated as a brand and kept in English,
-# while "Home" and "(Default)" can be localized.
+
+
 home-mode-choice-default =
     .label = Page d’accueil de Mypal (par défaut)
 
@@ -531,10 +513,10 @@ home-mode-choice-blank =
 home-homepage-custom-url =
     .placeholder = Coller une adresse…
 
-# This string has a special case for '1' and [other] (default). If necessary for
-# your language, you can add {$tabCount} to your translations and use the
-# standard CLDR forms, or only use the form for [other] if both strings should
-# be identical.
+
+
+
+
 use-current-pages =
     .label =
         { $tabCount ->
@@ -551,7 +533,6 @@ choose-bookmark =
 
 home-prefs-content-header = Contenu de la page d’accueil de Mypal
 home-prefs-content-description = Choisissez le contenu que vous souhaitez pour la page d’accueil de Mypal.
-home-prefs-content-discovery-description = La découverte de contenu dans Mypal Home vous permet de découvrir des articles pertinents et de haute qualité sur le Web.
 
 home-prefs-search-header =
     .label = Recherche web
@@ -568,8 +549,6 @@ home-prefs-highlights-options-bookmarks =
     .label = Marque-pages
 home-prefs-highlights-option-most-recent-download =
     .label = Dernier téléchargement
-home-prefs-highlights-option-saved-to-pocket =
-    .label = Pages enregistrées dans { -pocket-brand-name }
 
 home-prefs-sections-rows-option =
     .label =
@@ -597,11 +576,11 @@ search-show-suggestions-url-bar-option =
     .label = Afficher les suggestions de recherche parmi les résultats de la barre d’adresse
     .accesskey = c
 
-# This string describes what the user will observe when the system
-# prioritizes search suggestions over browsing history in the results
-# that extend down from the address bar. In the original English string,
-# "ahead" refers to location (appearing most proximate to), not time
-# (appearing before).
+
+
+
+
+
 search-show-suggestions-above-history-option =
     .label = Afficher les suggestions de recherche avant l’historique de navigation dans les résultats de la barre d’adresse
 
@@ -626,11 +605,11 @@ search-remove-engine =
 
 search-find-more-link = Découvrir d’autres moteurs de recherche
 
-# This warning is displayed when the chosen keyword is already in use
-# ('Duplicate' is an adjective)
+
+
 search-keyword-warning-title = Doublon de mot-clé
-# Variables:
-#   $name (String) - Name of a search engine.
+
+
 search-keyword-warning-engine = Vous avez choisi un mot-clé qui est déjà utilisé par « { $name } ». Veuillez en choisir un autre.
 search-keyword-warning-bookmark = Vous avez choisi un mot-clé qui est déjà utilisé par un marque-page. Veuillez en choisir un autre.
 
@@ -642,8 +621,6 @@ containers-back-button =
           [windows] Retourner aux options
          *[other] Retourner aux préférences
       }
-
-containers-back-link = « Retour
 containers-header = Onglets contextuels
 containers-add-button =
     .label = Ajouter un nouveau contexte
@@ -652,7 +629,6 @@ containers-add-button =
 containers-new-tab-check =
     .label = Sélectionner un conteneur pour ouvrir un nouvel onglet
     .accesskey = S
-
 
 containers-preferences-button =
     .label = Préférences
@@ -672,14 +648,14 @@ sync-signedout-account-signin =
     .label = Se connecter…
     .accesskey = S
 
-# This message contains two links and two icon images.
-#   `<img data-l10n-name="android-icon"/>` - Android logo icon
-#   `<a data-l10n-name="android-link">` - Link to Android Download
-#   `<img data-l10n-name="ios-icon">` - iOS logo icon
-#   `<a data-l10n-name="ios-link">` - Link to iOS Download
-#
-# They can be moved within the sentence as needed to adapt
-# to your language, but should not be changed or translated.
+
+
+
+
+
+
+
+
 sync-mobile-promo = Téléchargez Mypal pour <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> ou <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> afin de synchroniser vos données avec votre appareil mobile.
 
 ## Sync Section - Signed in
@@ -810,20 +786,19 @@ forms-master-pw-change =
 forms-master-pw-fips-title = Vous êtes actuellement en mode FIPS. FIPS requiert un mot de passe maître non vide.
 forms-master-pw-fips-desc = Échec de modification du mot de passe
 
-
 ## Privacy Section - History
 
 history-header = Historique
 
-# This label is followed, on the same line, by a dropdown list of options
-# (Remember history, etc.).
-# In English it visually creates a full sentence, e.g.
-# "Firefox will" + "Remember history".
-#
-# If this doesn't work for your language, you can translate this message:
-#   - Simply as "Firefox", moving the verb into each option.
-#     This will result in "Firefox" + "Will remember history", etc.
-#   - As a stand-alone message, for example "Firefox history settings:".
+
+
+
+
+
+
+
+
+
 history-remember-label = Règles de conservation
     .accesskey = R
 
@@ -897,9 +872,6 @@ content-blocking-custom-desc = Choisissez ce que vous souhaitez bloquer.
 
 sitedata-option-block-nothing =
     .label = Rien
-
-sitedata-option-block-trackers =
-    .label = Traqueurs tiers
 sitedata-option-block-unvisited =
     .label = Cookies de sites web non visités
 sitedata-option-block-all-third-party =
@@ -936,82 +908,19 @@ addressbar-locbar-openpage-option =
     .accesskey = O
 
 addressbar-suggestions-settings = Modifier les préférences pour les suggestions de recherche
-
-## Privacy Section - Content Blocking
-
-content-blocking-header = Blocage de contenu
-
-content-blocking-section-description = Protégez votre vie privée pendant votre navigation. Bloquez les contenus invisibles qui vous pistent de site en site et dressent votre profil. Bloquer une partie de ces contenus peut accélérer le chargement des pages.
-
-content-blocking-learn-more = En savoir plus
-
-# The terminology used to refer to categories of Content Blocking is also used in chrome/browser/browser.properties and should be translated consistently.
-# "Standard" in this case is an adjective, meaning "default" or "normal".
-content-blocking-setting-standard =
-    .label = Standard
-    .accesskey = d
-content-blocking-setting-strict =
-    .label = Strict
-    .accesskey = r
-content-blocking-setting-custom =
-    .label = Personnalisé
-    .accesskey = P
-
-content-blocking-standard-desc = Équilibré entre protection et performances. Autorise quelques traqueurs pour que les sites web fonctionnent correctement.
-content-blocking-strict-description = Une protection renforcée, mais qui peut empêcher certains sites de fonctionner correctement.
-content-blocking-custom-desc = Choisissez ce que vous souhaitez bloquer.
-
-content-blocking-private-trackers = Les traqueurs connus dans les fenêtres de navigation privée seulement
-content-blocking-third-party-cookies = Les cookies tiers utilisés pour le pistage
 content-blocking-all-cookies = Tous les cookies
 content-blocking-unvisited-cookies = Cookies de sites non visités
 content-blocking-all-windows-trackers = Les traqueurs connus dans toutes les fenêtres
 content-blocking-all-third-party-cookies = Tous les cookies tiers
-content-blocking-cryptominers = Mineurs de cryptomonnaies
-content-blocking-fingerprinters = Détecteurs d’empreinte numérique
-
-content-blocking-warning-title = Attention !
-content-blocking-warning-description = Le blocage de contenu peut empêcher certains sites de fonctionner. Vous pouvez facilement désactiver le blocage pour les sites en lesquels vous avez confiance.
 
 content-blocking-reload-description = Vous devrez actualiser vos onglets pour appliquer ces modifications.
 content-blocking-reload-tabs-button =
     .label = Actualiser tous les onglets
     .accesskey = A
 
-content-blocking-trackers-label =
-    .label = Traqueurs
-    .accesskey = T
-content-blocking-tracking-protection-option-all-windows =
-    .label = Dans toutes les fenêtres
-    .accesskey = t
-content-blocking-option-private =
-    .label = Seulement dans les fenêtres de navigation privée
-    .accesskey = p
-content-blocking-tracking-protection-change-block-list = Changer de liste de blocage
-
 content-blocking-cookies-label =
     .label = Cookies
     .accesskey = C
-
-content-blocking-expand-section =
-    .tooltiptext = Plus d’informations
-
-# Cryptomining refers to using scripts on websites that can use a computer’s resources to mine cryptocurrency without a user’s knowledge.
-content-blocking-cryptominers-label =
-    .label = Mineurs de cryptomonnaies
-    .accesskey = M
-
-# Browser fingerprinting is a method of tracking users by the configuration and settings information (their "digital fingerprint")
-# that is visible to websites they browse, rather than traditional tracking methods such as IP addresses and unique cookies.
-content-blocking-fingerprinters-label =
-    .label = Détecteurs d’empreinte numérique
-    .accesskey = e
-
-## Privacy Section - Tracking
-
-tracking-manage-exceptions =
-    .label = Gérer les exceptions…
-    .accesskey = x
 
 ## Privacy Section - Permissions
 
@@ -1070,56 +979,14 @@ permissions-a11y-privacy-checkbox =
 
 permissions-a11y-privacy-link = En savoir plus
 
-## Privacy Section - Data Collection
 
-collection-header = Collecte de données par { -brand-short-name } et utilisation
 
-collection-description = Nous nous efforçons de vous laisser le choix et de recueillir uniquement les informations dont nous avons besoin pour proposer { -brand-short-name } et l’améliorer pour tout le monde. Nous demandons toujours votre permission avant de recevoir des données personnelles.
-collection-privacy-notice = Politique de confidentialité
-
-collection-health-report =
-    .label = Autoriser { -brand-short-name } à envoyer des données techniques et des données d’interaction à { -vendor-short-name }
-    .accesskey = A
-collection-health-report-link = En savoir plus
-
-collection-studies =
-    .label = Autoriser { -brand-short-name } à installer et à lancer des études
-collection-studies-link = Consulter les études de { -brand-short-name }
-
-addon-recommendations =
-    .label = Autoriser { -brand-short-name } à effectuer des recommandations personnalisées d’extensions.
-addon-recommendations-link = En savoir plus
-
-# This message is displayed above disabled data sharing options in developer builds
-# or builds with no Telemetry support available.
 collection-health-report-disabled = L’envoi de données est désactivé pour cette configuration de compilation
 
 collection-backlogged-crash-reports =
     .label = Autoriser { -brand-short-name } à envoyer pour vous les rapports de plantage en attente
     .accesskey = t
 collection-backlogged-crash-reports-link = En savoir plus
-
-## Privacy Section - Security
-##
-## It is important that wording follows the guidelines outlined on this page:
-## https://developers.google.com/safe-browsing/developers_guide_v2#AcceptableUsage
-
-security-header = Sécurité
-
-security-browsing-protection = Protection contre les contenus trompeurs et les logiciels dangereux
-
-security-enable-safe-browsing =
-    .label = Bloquer les contenus dangereux ou trompeurs
-    .accesskey = B
-security-enable-safe-browsing-link = En savoir plus
-
-security-block-downloads =
-    .label = Bloquer les téléchargements dangereux
-    .accesskey = D
-
-security-block-uncommon-software =
-    .label = Signaler la présence de logiciels indésirables ou peu communs
-    .accesskey = n
 
 ## Privacy Section - Certificates
 

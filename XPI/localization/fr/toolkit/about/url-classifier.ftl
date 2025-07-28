@@ -1,6 +1,6 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+
 
 url-classifier-title = Informations sur la classification des URL
 url-classifier-search-title = Recherche
@@ -40,6 +40,7 @@ url-classifier-debug-sb-modules = Modules de journalisation pour le blocage de s
 url-classifier-debug-modules = Modules de journalisation actuels
 url-classifier-debug-sbjs-modules = Journal JS du blocage de sites malveillants
 url-classifier-debug-file = Fichier de journalisation actuel
+
 url-classifier-trigger-update = Déclencher une mise à jour
 url-classifier-not-available = Non disponible
 url-classifier-disable-sbjs-log = Désactiver la journalisation JS du blocage de sites malveillants

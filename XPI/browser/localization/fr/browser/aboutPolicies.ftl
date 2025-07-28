@@ -1,5 +1,9 @@
 
+
+
+
 about-policies-title = Stratégies d’entreprise
+
 
 active-policies-tab = En fonction
 errors-tab = Erreurs

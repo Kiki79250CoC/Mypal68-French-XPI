@@ -1,6 +1,6 @@
-# This Source Code Form is subject to the terms of the Mozilla Public
-# License, v. 2.0. If a copy of the MPL was not distributed with this
-# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+
+
 
 connection-window =
     .title = Paramètres de connexion
@@ -35,17 +35,12 @@ connection-proxy-http = Proxy HTTP
     .accesskey = H
 connection-proxy-http-port = Port
     .accesskey = p
-connection-proxy-http-share =
-    .label = Utiliser ce serveur proxy pour tous les protocoles
-    .accesskey = i
 connection-proxy-http-sharing =
     .label = Utiliser également ce serveur proxy pour les protocoles FTP et HTTPS
     .accesskey = s
 
 connection-proxy-https = Proxy HTTPS
     .accesskey = H
-connection-proxy-ssl = Proxy SSL
-    .accesskey = S
 connection-proxy-ssl-port = Port
     .accesskey = o
 
@@ -97,8 +92,8 @@ connection-dns-over-https =
 connection-dns-over-https-url-resolver = Utiliser le fournisseur
     .accesskey = U
 
-# Variables:
-#   $name (String) - Display name or URL for the DNS over HTTPS provider
+
+
 connection-dns-over-https-url-item-default =
     .label = { $name } (par défaut)
     .tooltiptext = Utiliser l’URL par défaut pour résoudre le DNS via HTTPS
