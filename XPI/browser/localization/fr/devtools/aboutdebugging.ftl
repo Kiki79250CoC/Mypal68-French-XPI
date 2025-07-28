@@ -4,7 +4,7 @@
 
 
 
-# Page Title strings
+
 
 
 about-debugging-page-title-setup-page = Débogage - Configuration
@@ -13,7 +13,7 @@ about-debugging-page-title-setup-page = Débogage - Configuration
 
 about-debugging-page-title-runtime-page = Débogage - Exécution / { $selectedRuntimeId }
 
-# Sidebar strings
+
 
 
 
@@ -93,7 +93,7 @@ about-debugging-sidebar-support-icon =
 
 about-debugging-refresh-usb-devices-button = Actualiser les appareils
 
-# Setup Page strings
+
 
 
 about-debugging-setup-title = Configuration
@@ -179,7 +179,7 @@ about-debugging-network-location-form-invalid = Hôte « { $host-value } » no
 
 about-debugging-network-location-form-duplicate = L’hôte « { $host-value } » est déjà enregistré
 
-# Runtime Page strings
+
 
 
 
@@ -261,7 +261,7 @@ about-debugging-profiler-dialog-title2 = Profileur
 
 about-debugging-collapse-expand-debug-targets = Réduire/Agrandir
 
-# Debug Targets strings
+
 
 
 

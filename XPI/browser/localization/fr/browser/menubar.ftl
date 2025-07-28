@@ -2,7 +2,7 @@
 
 
 
-## File Menu
+
 
 menu-file =
     .label = Fichier
@@ -55,7 +55,7 @@ menu-file-go-offline =
     .label = Travailler hors connexion
     .accesskey = x
 
-## Edit Menu
+
 
 menu-edit =
     .label = Édition
@@ -70,7 +70,7 @@ menu-edit-bidi-switch-text-direction =
     .label = Changer le sens du texte
     .accesskey = x
 
-## View Menu
+
 
 menu-view =
     .label = Affichage
@@ -140,7 +140,7 @@ menu-view-bidi-switch-page-direction =
     .label = Changer le sens de la page
     .accesskey = g
 
-## History Menu
+
 
 menu-history =
     .label = Historique
@@ -160,7 +160,7 @@ menu-history-undo-menu =
 menu-history-undo-window-menu =
     .label = Fenêtres récemment fermées
 
-## Bookmarks Menu
+
 
 menu-bookmarks-menu =
     .label = Marque-pages
@@ -176,7 +176,7 @@ menu-bookmarks-other =
 menu-bookmarks-mobile =
     .label = Marque-pages des appareils mobiles
 
-## Tools Menu
+
 
 menu-tools =
     .label = Outils
@@ -220,14 +220,14 @@ menu-tools-layout-debugger =
     .label = Débogueur de mise en page
     .accesskey = m
 
-## Window Menu
+
 
 menu-window-menu =
     .label = Fenêtre
 menu-window-bring-all-to-front =
     .label = Tout amener à l’avant-plan
 
-## Help Menu
+
 
 menu-help =
     .label = Aide

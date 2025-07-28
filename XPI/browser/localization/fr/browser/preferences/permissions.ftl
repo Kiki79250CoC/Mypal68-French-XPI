@@ -72,47 +72,47 @@ permissions-capabilities-listitem-block =
 permissions-capabilities-listitem-allow-session =
     .value = Autoriser pour la session
 
-## Invalid Hostname Dialog
+
 
 permissions-invalid-uri-title = Nom d’hôte invalide
 permissions-invalid-uri-label = Veuillez saisir un nom d’hôte valide
 
-## Exceptions - Cookies
+
 
 permissions-exceptions-cookie-window =
     .title = Exceptions - Cookies et données de sites
     .style = { permissions-window.style }
 permissions-exceptions-cookie-desc = Vous pouvez indiquer les sites web qui sont toujours ou ne sont jamais autorisés à utiliser des cookies ou des données de sites. Saisissez l’adresse exacte du site et cliquez sur Bloquer, Autoriser pour la session, ou Autoriser.
 
-## Exceptions - Pop-ups
+
 
 permissions-exceptions-popup-window =
     .title = Sites autorisés - Popups
     .style = { permissions-window.style }
 permissions-exceptions-popup-desc = Vous pouvez indiquer les sites web autorisés à ouvrir des fenêtres popup. Saisissez l’adresse exacte du site que vous souhaitez autoriser et cliquez sur Autoriser.
 
-## Exceptions - Saved Logins
+
 
 permissions-exceptions-saved-logins-window =
     .title = Exceptions - Enregistrement des identifiants
     .style = { permissions-window.style }
 permissions-exceptions-saved-logins-desc = Les identifiants pour les sites suivants ne seront pas enregistrés
 
-## Exceptions - Add-ons
+
 
 permissions-exceptions-addons-window =
     .title = Sites autorisés - Modules complémentaires
     .style = { permissions-window.style }
 permissions-exceptions-autoplay-media-desc2 = Vous pouvez indiquer les sites web qui sont toujours ou ne sont jamais autorisés à lancer automatiquement la lecture de contenu multimédia comportant du son. Saisissez l’adresse du site et cliquez sur Bloquer ou Autoriser.
 
-## Site Permissions - Autoplay
+
 
 permissions-site-autoplay-window =
     .title = Paramètres - Lecture automatique
     .style = { permissions-window.style }
 permissions-site-autoplay-desc = Vous pouvez gérer ici les sites qui ne suivent pas vos paramètres de lecture automatique par défaut.
 
-## Site Permissions - Notifications
+
 
 permissions-site-notification-window =
     .title = Paramètres - Permissions pour les notifications
@@ -122,7 +122,7 @@ permissions-site-notification-disable-label =
     .label = Bloquer les nouvelles demandes d’activation des notifications
 permissions-site-notification-disable-desc = Cela empêchera tous les sites web non listés ci-dessus de demander l’autorisation d’envoyer des notifications. Le blocage des notifications peut invalider les fonctionnalités de certains sites web.
 
-## Site Permissions - Location
+
 
 permissions-site-location-window =
     .title = Paramètres - Permissions pour la localisation
@@ -132,7 +132,7 @@ permissions-site-location-disable-label =
     .label = Bloquer les nouvelles demandes d’accès à votre localisation
 permissions-site-location-disable-desc = Cela empêchera tous les sites web non listés ci-dessus de demander l’autorisation d’accéder à votre localisation. Bloquer l’accès à votre localisation peut invalider les fonctionnalités de certains sites web.
 
-## Site Permissions - Camera
+
 
 permissions-site-camera-window =
     .title = Paramètres - Permissions pour la caméra
@@ -142,7 +142,7 @@ permissions-site-camera-disable-label =
     .label = Bloquer les nouvelles demandes d’accès à votre caméra
 permissions-site-camera-disable-desc = Cela empêchera tous les sites web non listés ci-dessus de demander l’autorisation d’accéder à votre caméra. Bloquer l’accès à votre caméra peut invalider les fonctionnalités de certains sites web.
 
-## Site Permissions - Microphone
+
 
 permissions-site-microphone-window =
     .title = Paramètres - Permissions pour le microphone
