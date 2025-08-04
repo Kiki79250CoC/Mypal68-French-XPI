@@ -2,6 +2,9 @@
 
 
 
+appmenuitem-customize-mode =
+    .label = Personnaliser…
+
 urlbar-identity-button =
     .aria-label = Afficher les informations du site
 
@@ -73,6 +76,16 @@ urlbar-install-blocked =
 
 
 
+urlbar-star-edit-bookmark =
+    .tooltiptext = Modifier ce marque-page ({ $shortcut })
+
+
+
+urlbar-star-add-bookmark =
+    .tooltiptext = Marquer cette page ({ $shortcut })
+
+
+
 page-action-add-to-urlbar =
     .label = Ajouter à la barre d’adresse
 page-action-manage-extension =
@@ -123,3 +136,38 @@ bookmark-panel-done-button =
 
 bookmark-panel =
     .style = min-width: 23em
+
+
+
+popup-select-camera =
+    .value = Caméra à partager :
+    .accesskey = C
+popup-select-microphone =
+    .value = Microphone à partager :
+    .accesskey = M
+popup-all-windows-shared = L’ensemble des fenêtres visibles sur votre écran seront partagées.
+
+
+
+urlbar-placeholder =
+    .placeholder = Saisir un terme à rechercher ou une adresse
+
+
+
+urlbar-placeholder-with-name =
+    .placeholder = Rechercher avec { $name } ou saisir une adresse
+urlbar-remote-control-notification-anchor =
+    .tooltiptext = Le navigateur est contrôlé à distance
+urlbar-permissions-granted =
+    .tooltiptext = Vous avez accordé des permissions supplémentaires à cette page.
+urlbar-switch-to-tab =
+    .value = Aller à l’onglet :
+
+
+urlbar-extension =
+    .value = Extension :
+
+urlbar-go-end-cap =
+    .tooltiptext = Se rendre à la page indiquée dans la barre d’adresse
+urlbar-page-action-button =
+    .tooltiptext = Actions pour la page

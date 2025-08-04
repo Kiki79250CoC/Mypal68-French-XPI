@@ -20,3 +20,26 @@ toolbar-context-menu-select-all-tabs =
 toolbar-context-menu-undo-close-tab =
     .label = Annuler la fermeture de l’onglet
     .accesskey = n
+
+toolbar-context-menu-manage-extension =
+    .label = Gérer l’extension
+    .accesskey = G
+toolbar-context-menu-remove-extension =
+    .label = Supprimer l’extension
+    .accesskey = S
+
+
+
+
+toolbar-context-menu-pin-to-overflow-menu =
+    .label = Épingler au menu de dépassement
+    .accesskey = n
+toolbar-context-menu-auto-hide-downloads-button =
+    .label = Masquer automatiquement dans la barre d’outils
+    .accesskey = M
+toolbar-context-menu-remove-from-toolbar =
+    .label = Retirer de la barre d'outils
+    .accesskey = R
+toolbar-context-menu-view-customize-toolbar =
+    .label = Personnaliser…
+    .accesskey = P
