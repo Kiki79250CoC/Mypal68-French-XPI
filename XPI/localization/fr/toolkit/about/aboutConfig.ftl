@@ -5,9 +5,9 @@
 config-window =
     .title = about:config
 
-## Strings used to display a warning in about:config
 
-# This text should be attention grabbing and playful
+
+
 config-about-warning-title =
     .value = Attention, danger !
 config-about-warning-text = La modification de ces préférences avancées peut être dommageable pour la stabilité, la sécurité et les performances de cette application. Ne continuez que si vous savez ce que vous faites.
@@ -26,7 +26,7 @@ config-focus-search =
 config-focus-search-2 =
     .key = f
 
-## These strings are used for column headers
+
 config-pref-column =
     .label = Nom de l’option
 config-lock-column =
@@ -36,13 +36,13 @@ config-type-column =
 config-value-column =
     .label = Valeur
 
-## These strings are used for tooltips
+
 config-pref-column-header =
     .tooltip = Trier
 config-column-chooser =
     .tooltip = Sélectionner les colonnes à afficher
 
-## These strings are used for the context menu
+
 config-copy-pref =
     .key = C
     .label = Copier
@@ -97,10 +97,10 @@ config-new-prompt = Saisissez le nom de l’option
 config-nan-title = Valeur invalide
 config-nan-text = Le texte saisi n’est pas un nombre.
 
-# Variables:
-#   $type (String): type of value (boolean, integer or string)
+
+
 config-new-title = Nouvelle valeur (type { $type })
 
-# Variables:
-#   $type (String): type of value (boolean, integer or string)
+
+
 config-modify-title = Saisissez une nouvelle valeur (type { $type })

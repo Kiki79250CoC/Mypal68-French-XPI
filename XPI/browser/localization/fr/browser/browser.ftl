@@ -2,10 +2,13 @@
 
 
 
+appmenuitem-customize-mode =
+    .label = Personnaliser…
+
 urlbar-identity-button =
     .aria-label = Afficher les informations du site
 
-## Tooltips for images appearing in the address bar
+
 
 urlbar-services-notification-anchor =
     .tooltiptext = Afficher le message d’installation de service
@@ -71,7 +74,17 @@ urlbar-midi-blocked =
 urlbar-install-blocked =
     .tooltiptext = Vous avez bloqué l’installation de modules complémentaires pour ce site web.
 
-## Page Action Context Menu
+
+
+urlbar-star-edit-bookmark =
+    .tooltiptext = Modifier ce marque-page ({ $shortcut })
+
+
+
+urlbar-star-add-bookmark =
+    .tooltiptext = Marquer cette page ({ $shortcut })
+
+
 
 page-action-add-to-urlbar =
     .label = Ajouter à la barre d’adresse
@@ -80,7 +93,7 @@ page-action-manage-extension =
 page-action-remove-from-urlbar =
     .label = Retirer de la barre d’adresse
 
-## Auto-hide Context Menu
+
 
 full-screen-autohide =
     .label = Masquer les barres d’outils
@@ -89,7 +102,7 @@ full-screen-exit =
     .label = Quitter le mode plein écran
     .accesskey = Q
 
-## Search Engine selection buttons (one-offs)
+
 
 
 
@@ -109,7 +122,7 @@ search-one-offs-context-set-as-default =
     .label = Définir comme moteur de recherche par défaut
     .accesskey = D
 
-## Bookmark Panel
+
 
 bookmark-panel-show-editor-checkbox =
     .label = Afficher l’éditeur lors de l’enregistrement
@@ -123,3 +136,38 @@ bookmark-panel-done-button =
 
 bookmark-panel =
     .style = min-width: 23em
+
+
+
+popup-select-camera =
+    .value = Caméra à partager :
+    .accesskey = C
+popup-select-microphone =
+    .value = Microphone à partager :
+    .accesskey = M
+popup-all-windows-shared = L’ensemble des fenêtres visibles sur votre écran seront partagées.
+
+
+
+urlbar-placeholder =
+    .placeholder = Saisir un terme à rechercher ou une adresse
+
+
+
+urlbar-placeholder-with-name =
+    .placeholder = Rechercher avec { $name } ou saisir une adresse
+urlbar-remote-control-notification-anchor =
+    .tooltiptext = Le navigateur est contrôlé à distance
+urlbar-permissions-granted =
+    .tooltiptext = Vous avez accordé des permissions supplémentaires à cette page.
+urlbar-switch-to-tab =
+    .value = Aller à l’onglet :
+
+
+urlbar-extension =
+    .value = Extension :
+
+urlbar-go-end-cap =
+    .tooltiptext = Se rendre à la page indiquée dans la barre d’adresse
+urlbar-page-action-button =
+    .tooltiptext = Actions pour la page

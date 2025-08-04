@@ -8,7 +8,7 @@ navbar-tooltip-instruction =
        *[other] Faire un clic droit ou cliquer en déplaçant la souris vers le bas pour afficher l’historique
     }
 
-## Back
+
 
 main-context-menu-back =
     .tooltiptext = Reculer d’une page
@@ -21,7 +21,7 @@ navbar-tooltip-back =
 toolbar-button-back =
     .label = { main-context-menu-back.aria-label }
 
-## Forward
+
 
 main-context-menu-forward =
     .tooltiptext = Avancer d’une page
@@ -34,7 +34,7 @@ navbar-tooltip-forward =
 toolbar-button-forward =
     .label = { main-context-menu-forward.aria-label }
 
-## Reload
+
 
 main-context-menu-reload =
     .aria-label = Actualiser
@@ -43,7 +43,7 @@ main-context-menu-reload =
 toolbar-button-reload =
     .label = { main-context-menu-reload.aria-label }
 
-## Stop
+
 
 main-context-menu-stop =
     .aria-label = Arrêter
@@ -52,12 +52,12 @@ main-context-menu-stop =
 toolbar-button-stop =
     .label = { main-context-menu-stop.aria-label }
 
-## Stop-Reload Button
+
 
 toolbar-button-stop-reload =
     .title = { main-context-menu-reload.aria-label }
 
-## Save Page
+
 
 main-context-menu-page-save =
     .label = Enregistrer sous…
@@ -66,11 +66,31 @@ main-context-menu-page-save =
 toolbar-button-page-save =
     .label = { main-context-menu-page-save.label }
 
-## Simple menu items
 
+
+main-context-menu-bookmark-add =
+    .aria-label = Marquer cette page
+    .accesskey = c
+    .tooltiptext = Marquer cette page
 main-context-menu-bookmark-page =
     .aria-label = Marquer cette page
     .accesskey = c
+main-context-menu-bookmark-add-with-shortcut =
+    .aria-label = Marquer cette page
+    .accesskey = c
+    .tooltiptext = Marquer cette page ({ $shortcut })
+
+main-context-menu-bookmark-change =
+    .aria-label = Modifier ce marque-page
+    .accesskey = c
+    .tooltiptext = Modifier ce marque-page
+
+
+
+main-context-menu-bookmark-change-with-shortcut =
+    .aria-label = Modifier ce marque-page
+    .accesskey = m
+    .tooltiptext = Modifier ce marque-page ({ $shortcut })
 
 main-context-menu-open-link =
     .label = Ouvrir le lien

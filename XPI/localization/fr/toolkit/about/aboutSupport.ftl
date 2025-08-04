@@ -82,7 +82,7 @@ graphics-gpu2-title = GPU 2
 graphics-decision-log-title = Journal des décisions
 graphics-crash-guards-title = Fonctionnalités désactivées par la protection contre les plantages
 graphics-workarounds-title = Solutions de contournement
-# Windowing system in use on Linux (e.g. X11, Wayland).
+
 graphics-window-protocol = Protocole de fenêtrage
 place-database-title = Base de données « Places »
 place-database-integrity = Intégrité
@@ -128,40 +128,40 @@ intl-os-title = Système d’exploitation
 intl-os-prefs-system-locales = Langues du système
 intl-regional-prefs = Préférences régionales
 
-# Variables
-# $days (Integer) - Number of days of crashes to log
+
+
 report-crash-for-days =
     { $days ->
         [one] Rapports de plantage de la veille
        *[other] Rapports de plantage des { $days } derniers jours
     }
 
-# Variables
-# $minutes (integer) - Number of minutes since crash
+
+
 crashes-time-minutes =
     { $minutes ->
         [one] Il y a { $minutes } minute
        *[other] Il y a { $minutes } minutes
     }
 
-# Variables
-# $hours (integer) - Number of hours since crash
+
+
 crashes-time-hours =
     { $hours ->
         [one] Il y a { $hours } heure
        *[other] Il y a { $hours } heures
     }
 
-# Variables
-# $days (integer) - Number of days since crash
+
+
 crashes-time-days =
     { $days ->
         [one] Il y a { $days } jour
        *[other] Il y a { $days } jours
     }
 
-# Variables
-# $reports (integer) - Number of pending reports
+
+
 pending-reports =
     { $reports ->
         [one] Tous les rapports de plantage (y compris { $reports } rapport en attente d’un plantage ayant eu lieu dans l’intervalle)
@@ -171,17 +171,17 @@ pending-reports =
 raw-data-copied = Informations brutes copiées dans le presse-papiers
 text-copied = Texte copié dans le presse-papiers
 
-## The verb "blocked" here refers to a graphics feature such as "Direct2D" or "OpenGL layers".
+
 blocked-driver = Bloqué pour la version de votre pilote graphique.
 blocked-gfx-card = Bloqué pour votre carte graphique à cause de problèmes non résolus du pilote.
 blocked-os-version = Bloqué pour la version de votre système d’exploitation.
 blocked-mismatched-version = Bloqué pour la version de votre pilote graphique car la version diffère entre le registre et les DLL.
-# Variables
-# $driverVersion - The graphics driver version string
+
+
 try-newer-driver = Bloqué en raison de la version de votre pilote graphique. Essayez de faire la mise à jour de votre pilote graphique vers la version { $driverVersion } ou supérieure.
 
-# "ClearType" is a proper noun and should not be translated. Feel free to leave English strings if
-# there are no good translations, these are only used in about:support
+
+
 clear-type-parameters = Paramètres ClearType
 
 compositing = Composition
@@ -192,9 +192,9 @@ no = Non
 unknown = Inconnu
 virtual-monitor-disp = Affichage virtuel
 
-## The following strings indicate if an API key has been found.
-## In some development versions, it's expected for some API keys that they are
-## not found.
+
+
+
 found = Présente
 missing = Manquante
 
@@ -222,12 +222,12 @@ webgl2-driver-extensions = Pilote WebGL 2 - Extensions
 webgl2-extensions = WebGL 2 - Extensions
 blocklisted-bug = Mis sur liste de blocage en raison de problèmes connus
 
-# Variables
-# $bugNumber (string) - String of bug number from Bugzilla
+
+
 bug-link = bogue { $bugNumber }
 
-# Variables
-# $failureCode (string) - String that can be searched in the source tree.
+
+
 unknown-failure = Mis sur liste de blocage ; code d’erreur { $failureCode }
 
 d3d11layers-crash-guard = Compositeur D3D11
@@ -271,9 +271,9 @@ launcher-process-status-1 = Désactivé en raison d’une défaillance
 launcher-process-status-2 = Désactivé de force
 launcher-process-status-unknown = État inconnu
 
-# Variables
-# $remoteWindows (integer) - Number of remote windows
-# $totalWindows (integer) - Number of total windows
+
+
+
 multi-process-windows = { $remoteWindows }/{ $totalWindows }
 multi-process-status-0 = Activé par l’utilisateur
 multi-process-status-1 = Activé par défaut
@@ -292,12 +292,12 @@ drag-enabled = faire glisser les barres de défilement
 keyboard-enabled = clavier activé
 autoscroll-enabled = défilement automatique activé
 
-## Variables
-## $preferenceKey (string) - String ID of preference
+
+
 wheel-warning = entrée molette asynchrone désactivée en raison d’une préférence non prise en charge : { $preferenceKey }
 touch-warning = entrée tactile asynchrone désactivée en raison d’une préférence non prise en charge : { $preferenceKey }
 
-## Strings representing the status of the Enterprise Policies engine.
+
 policies-inactive = Inactives
 policies-active = Actives
 policies-error = Erreur

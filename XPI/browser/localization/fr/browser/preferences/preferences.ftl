@@ -55,7 +55,7 @@ focus-search =
 close-button =
     .aria-label = Fermer
 
-## Browser Restart Dialog
+
 
 feature-enable-requires-restart = { -brand-short-name } doit redémarrer pour activer cette fonctionnalité.
 feature-disable-requires-restart = { -brand-short-name } doit redémarrer pour désactiver cette fonctionnalité.
@@ -109,7 +109,7 @@ extension-controlled-proxy-config = Une extension, <img data-l10n-name="icon"/> 
 
 extension-controlled-enable = Pour activer l’extension, sélectionnez <img data-l10n-name="addons-icon"/> Modules complémentaires dans le menu <img data-l10n-name="menu-icon"/>.
 
-## Preferences UI Search Results
+
 
 search-results-header = Résultats de la recherche
 
@@ -122,7 +122,7 @@ search-results-empty-message =
 
 search-results-help-link = Besoin d’aide ? Consultez <a data-l10n-name="url">l’assistance de { -brand-short-name }</a>
 
-## General Section
+
 
 startup-header = Démarrage
 
@@ -219,7 +219,7 @@ containers-remove-ok-button = Supprimer ce contexte
 containers-remove-cancel-button = Ne pas supprimer ce contexte
 
 
-## General Section - Language & Appearance
+
 
 language-and-appearance-header = Langue et apparence
 
@@ -269,7 +269,7 @@ check-user-spelling =
     .label = Vérifier l’orthographe pendant la saisie
     .accesskey = V
 
-## General Section - Files and Applications
+
 
 files-and-applications-title = Fichiers et applications
 
@@ -420,7 +420,7 @@ update-application-use-service =
     .label = Utiliser un service en arrière-plan pour installer les mises à jour
     .accesskey = s
 
-## General Section - Performance
+
 
 performance-title = Performances
 
@@ -447,7 +447,7 @@ performance-limit-content-process-blocked-desc = Modifier le nombre de processus
 performance-default-content-process-count =
     .label = { $num } (par défaut)
 
-## General Section - Browsing
+
 
 browsing-title = Navigation
 
@@ -471,7 +471,7 @@ browsing-search-on-start-typing =
     .label = Lancer la recherche lors de la saisie de texte
     .accesskey = c
 
-## General Section - Proxy
+
 
 network-settings-title = Paramètres réseau
 
@@ -483,13 +483,13 @@ network-proxy-connection-settings =
     .label = Paramètres…
     .accesskey = P
 
-## Home Section
+
 
 home-new-windows-tabs-header = Nouvelles fenêtres et nouveaux onglets
 
 home-new-windows-tabs-description2 = Choisissez ce qui est affiché lorsque vous ouvrez votre page d’accueil, de nouvelles fenêtres ou de nouveaux onglets.
 
-## Home Section - Home Page Customization
+
 
 home-homepage-mode-label = Page d’accueil et nouvelles fenêtres
 
@@ -529,7 +529,7 @@ choose-bookmark =
     .label = Marque-page…
     .accesskey = m
 
-## Home Section - Firefox Home Content Customization
+
 
 home-prefs-content-header = Contenu de la page d’accueil de Mypal
 home-prefs-content-description = Choisissez le contenu que vous souhaitez pour la page d’accueil de Mypal.
@@ -557,7 +557,7 @@ home-prefs-sections-rows-option =
            *[other] { $num } colonnes
         }
 
-## Search Section
+
 
 search-bar-header = Barre de recherche
 search-bar-hidden =
@@ -613,7 +613,7 @@ search-keyword-warning-title = Doublon de mot-clé
 search-keyword-warning-engine = Vous avez choisi un mot-clé qui est déjà utilisé par « { $name } ». Veuillez en choisir un autre.
 search-keyword-warning-bookmark = Vous avez choisi un mot-clé qui est déjà utilisé par un marque-page. Veuillez en choisir un autre.
 
-## Containers Section
+
 
 containers-back-button =
     .aria-label =
@@ -635,7 +635,7 @@ containers-preferences-button =
 containers-remove-button =
     .label = Supprimer
 
-## Sync Section - Signed out
+
 
 sync-signedout-caption = Emportez votre Web partout avec vous
 sync-signedout-description = Synchronisez marque-pages, historique, onglets, mots de passe, modules complémentaires et préférences entre tous vos appareils.
@@ -658,7 +658,7 @@ sync-signedout-account-signin =
 
 sync-mobile-promo = Téléchargez Mypal pour <img data-l10n-name="android-icon"/> <a data-l10n-name="android-link">Android</a> ou <img data-l10n-name="ios-icon"/> <a data-l10n-name="ios-link">iOS</a> afin de synchroniser vos données avec votre appareil mobile.
 
-## Sync Section - Signed in
+
 
 sync-profile-picture =
     .tooltiptext = Changer la photo de profil
@@ -754,11 +754,11 @@ sync-tos-link = Conditions d’utilisation
 
 sync-fxa-privacy-notice = Politique de confidentialité
 
-## Privacy Section
+
 
 privacy-header = Vie privée
 
-## Privacy Section - Forms
+
 
 logins-header = Identifiants et mots de passe
 forms-ask-to-save-logins =
@@ -786,7 +786,7 @@ forms-master-pw-change =
 forms-master-pw-fips-title = Vous êtes actuellement en mode FIPS. FIPS requiert un mot de passe maître non vide.
 forms-master-pw-fips-desc = Échec de modification du mot de passe
 
-## Privacy Section - History
+
 
 history-header = Historique
 
@@ -836,15 +836,15 @@ history-clear-button =
     .label = Effacer l’historique…
     .accesskey = h
 
-## Privacy Section - Site Data
+
 
 sitedata-header = Cookies et données de sites
 
 sitedata-total-size-calculating = Calcul du volume des données de sites et du cache…
 
-# Variables:
-#   $value (Number) - Value of the unit (for example: 4.6, 500)
-#   $unit (String) - Name of the unit (for example: "bytes", "KB")
+
+
+
 sitedata-total-size = Le stockage des cookies, du cache et des données de sites utilise actuellement { $value } { $unit } d’espace disque.
 
 sitedata-learn-more = En savoir plus
@@ -863,8 +863,8 @@ sitedata-disallow-cookies-option =
     .label = Bloquer les cookies et les données de site
     .accesskey = B
 
-# This label means 'type of content that is blocked', and is followed by a drop-down list with content types below.
-# The list items are the strings named sitedata-block-*-option*.
+
+
 sitedata-block-desc = Type de contenu bloqué
     .accesskey = T
 
@@ -891,7 +891,7 @@ sitedata-cookies-permissions =
     .label = Gérer les permissions…
     .accesskey = p
 
-## Privacy Section - Address Bar
+
 
 addressbar-header = Barre d’adresse
 
@@ -922,7 +922,7 @@ content-blocking-cookies-label =
     .label = Cookies
     .accesskey = C
 
-## Privacy Section - Permissions
+
 
 permissions-header = Permissions
 
@@ -988,7 +988,7 @@ collection-backlogged-crash-reports =
     .accesskey = t
 collection-backlogged-crash-reports-link = En savoir plus
 
-## Privacy Section - Certificates
+
 
 certs-header = Certificats
 
@@ -1042,12 +1042,12 @@ space-alert-under-5gb-ok-button =
 
 space-alert-under-5gb-message = { -brand-short-name } n’a plus assez d’espace disque. Le contenu des sites web pourrait ne pas s’afficher correctement. Cliquez sur « En savoir plus » pour optimiser l’utilisation de votre disque et ainsi améliorer votre navigation.
 
-## The following strings are used in the Download section of settings
+
 desktop-folder-name = Bureau
 downloads-folder-name = Téléchargements
 choose-download-folder-title = Choisir le dossier de téléchargement :
 
-# Variables:
-#   $service-name (String) - Name of a cloud storage provider like Dropbox, Google Drive, etc...
+
+
 save-files-to-cloud-storage =
     .label = Enregistrer les fichiers dans { $service-name }

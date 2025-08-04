@@ -179,23 +179,23 @@ pkcs12-unknown-err = L’opération PKCS #12 a échoué pour des raisons inconnu
 pkcs12-info-no-smartcard-backup = Il est impossible de sauvegarder les certificats d’un périphérique matériel de sécurité tel qu’une carte intelligente.
 pkcs12-dup-data = Le certificat et la clé privée existent déjà sur le périphérique de sécurité.
 
-## PKCS#12 file dialogs
+
 choose-p12-backup-file-dialog = Nom de fichier à sauvegarder
 file-browse-pkcs12-spec = Fichiers PKCS12
 choose-p12-restore-file-dialog = Fichier de certificat à importer
 
-## Import certificate(s) file dialog
+
 file-browse-certificate-spec = Fichiers de certificat
 import-ca-certs-prompt = Sélectionner un fichier contenant un (ou des) certificat(s) d’AC à importer
 import-email-cert-prompt = Sélectionner un fichier contenant un certificat de courrier à importer
 
-## For editing certificates trust
 
-# Variables:
-#   $certName: the name of certificate
+
+
+
 edit-trust-ca = Le certificat « { $certName } » représente une autorité de certification.
 
-## For Deleting Certificates
+
 
 delete-user-cert-title =
     .title = Suppression de certificats
@@ -219,29 +219,29 @@ delete-email-cert-title =
 delete-email-cert-confirm = Voulez-vous vraiment supprimer les certificats de courrier de ces personnes ?
 delete-email-cert-impact = Si vous supprimez le certificat de courrier d’une personne, vous ne pourrez plus envoyer de courrier chiffré à la personne qui lui est associée.
 
-# Used for semi-uniquely representing a cert.
-#
-# Variables:
-#   $serialNumber : the serial number of the cert in AA:BB:CC hex format.
+
+
+
+
 cert-with-serial =
     .value = Certificat avec numéro de série : { $serialNumber }
 
-## Cert Viewer
 
-# Title used for the Certificate Viewer.
-#
-# Variables:
-#   $certificate : a string representative of the certificate being viewed.
+
+
+
+
+
 cert-viewer-title =
     .title = Détails du certificat : « { $certName } »
 
 not-present =
     .value = <Ne fait pas partie du certificat>
 
-# Cert verification
+
 cert-verified = Ce certificat a été vérifié pour les utilisations suivantes :
 
-# Add usage
+
 verify-ssl-client =
     .value = Certificat client SSL
 
@@ -257,7 +257,7 @@ verify-email-signer =
 verify-email-recip =
     .value = Certificat de réception de courrier
 
-# Cert verification
+
 cert-not-verified-cert-revoked = Impossible de vérifier ce certificat car il a été révoqué.
 cert-not-verified-cert-expired = Impossible de vérifier ce certificat car il a expiré.
 cert-not-verified-cert-not-trusted = Impossible de vérifier ce certificat car il n’est pas digne de confiance.
@@ -267,7 +267,7 @@ cert-not-verified-ca-invalid = Impossible de vérifier ce certificat car le cert
 cert-not-verified_algorithm-disabled = Impossible de vérifier ce certificat car il a été signé à l’aide d’un algorithme de signature qui a été désactivé car cet algorithme n’est pas sécurisé.
 cert-not-verified-unknown = Impossible de vérifier ce certificat pour une raison inconnue.
 
-## Add Security Exception dialog
+
 add-exception-branded-warning = Vous êtes en train de passer outre la façon dont { -brand-short-name } identifie ce site.
 add-exception-invalid-header = Ce site essaie de s’identifier lui-même avec des informations invalides.
 add-exception-domain-mismatch-short = Mauvais site
@@ -283,7 +283,7 @@ add-exception-checking-long = Tentative d’identification de ce site…
 add-exception-no-cert-short = Pas d’informations disponibles
 add-exception-no-cert-long = Impossible d’obtenir l’état d’identification de ce site.
 
-## Certificate export "Save as" and error dialogs
+
 save-cert-as = Enregistrer le certificat dans un fichier
 cert-format-base64 = Certificat X.509 (PEM)
 cert-format-base64-chain = Certificat X.509 avec chaîne (PEM)
