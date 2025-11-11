@@ -26,7 +26,9 @@ LINE_NB   A   CONTENT
 
 
 >         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\chrome\fr\locale\fr\global\security\security.properties"
+
      52   +   XTCOWithMIMEValueMissing=La ressource à l’adresse « %1$S » n’a pas été affichée en raison d’un type MIME incorrect ou manquant (X-Content-Type-Options: nosniff).
+
 
 >         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\localization\fr\toolkit\global\textActions.ftl"
 
