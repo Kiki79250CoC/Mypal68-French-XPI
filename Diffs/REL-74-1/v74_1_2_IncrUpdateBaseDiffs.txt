@@ -1,0 +1,471 @@
+▒▒
+▒▒  DIFFERENTIAL SHEET FOR MYPAL68 · RELEASE SERIES VERSION 74.1
+▒▒
+▒▒  This file contains all diff changes applicable to the base release of the Language Pack in comparison
+▒▒  to the latest minor incremential update release changes that can be reflected inside of the Language Pack.
+▒▒ 
+▒▒  All changes that are not related to the files included in the Language Pack are not reflected.
+▒▒
+▒▒
+▒▒  LEGEND: + → ADDITION // - → REMOVAL // · → EDIT // › → Moved
+▒▒
+
+
+LINE_NB   A   CONTENT
+
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\chrome\fr\locale\fr\global\editMenuOverlay.dtd"
+
+      5   -   <!ENTITY editMenu.label "Édition">
+      6   -   <!ENTITY editMenu.accesskey "n">
+      7   -   <!ENTITY undoCmd.key "Z">
+      8   -   <!ENTITY redoCmd.key "Y">
+      9   -   <!ENTITY cutCmd.key "X">
+     10   -   <!ENTITY copyCmd.key "C">
+     11   -   <!ENTITY pasteCmd.key "V">
+     12   -   <!ENTITY selectAllCmd.key "A">
+
+
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\chrome\fr\locale\fr\global\security\security.properties"
+     52   +   XTCOWithMIMEValueMissing=La ressource à l’adresse « %1$S » n’a pas été affichée en raison d’un type MIME incorrect ou manquant (X-Content-Type-Options: nosniff).
+
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\localization\fr\toolkit\global\textActions.ftl"
+
+      9   +   text-action-undo-shortcut =
+     10   +       .key = Z
+     11   +   
+
+     16   +   text-action-redo-shortcut =
+     17   +       .key = Y
+     18   +   
+
+     23   +   text-action-cut-shortcut =
+     24   +       .key = X
+     25   +   
+
+     30   +   text-action-copy-shortcut =
+     31   +       .key = C
+     32   +   
+
+     38   +   text-action-paste-shortcut =
+     39   +       .key = V
+     40   +   
+
+     48   +   text-action-select-all-shortcut =
+     49   +       .key = A
+     50   +   
+
+
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\chrome\fr\locale\browser\baseMenuOverlay.dtd"
+
+      5   -   <!ENTITY minimizeWindow.key "m">
+      6   -   <!ENTITY minimizeWindow.label "Réduire">
+      7   -   <!ENTITY zoomWindow.label "Zoom">
+      8   -   
+
+     11   -   <!ENTITY helpMac.commandkey "?">
+
+     14   -   <!ENTITY preferencesCmdMac.commandkey ",">
+
+     19   -   <!ENTITY hideThisAppCmdMac2.commandkey "M">
+
+     22   -   <!ENTITY hideOtherAppsCmdMac.commandkey "a">
+
+
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\chrome\fr\locale\browser\browser.dtd"
+
+     30   -   <!ENTITY undoCloseTab.label "Annuler la fermeture de l’onglet">
+     31   -   <!ENTITY hiddenTabs.label "Onglets masqués">
+
+     34   -   
+     35   -   
+     36   -   <!ENTITY allTabsMenu.searchTabs.label "Rechercher dans les onglets">
+
+     39   -   <!ENTITY tabCmd.commandkey "t">
+
+     41   -   <!ENTITY openFileCmd.commandkey "o">
+
+     43   -   <!ENTITY printCmd.commandkey "p">
+
+     61   -   <!ENTITY pageSourceCmd.commandkey "u">
+     62   -   
+     63   -   
+     64   -   
+     65   -   
+     66   -   
+     67   -   <!ENTITY pageSourceCmd.SafariCommandKey "u">
+     68   -   
+     69   -   <!ENTITY pageInfoCmd.commandkey "i">
+
+     71   -   <!ENTITY fullScreenCmd.macCommandKey "f">
+     72   -   <!ENTITY toggleReaderMode.key "R">
+     73   -   <!ENTITY toggleReaderMode.win.keycode "VK_F9">
+     74   -   
+     75   -   <!ENTITY togglePictureInPicture.key2 "}">
+     76   -   <!ENTITY togglePictureInPicture.key "]">
+
+    136   -   <!ENTITY bookmarkThisPageCmd.label "Marquer cette page">
+    137   -   <!ENTITY editThisBookmarkCmd.label "Modifier ce marque-page">
+    138   -   <!ENTITY bookmarkThisPageCmd.commandkey "d">
+    139   -   
+
+    144   -   <!ENTITY stopCmd.macCommandKey ".">
+    145   -   <!ENTITY goEndCap.tooltip "Se rendre à la page indiquée dans la barre d’adresse">
+
+    149   -   <!ENTITY urlbar.remoteControlNotificationAnchor.tooltip "Le navigateur est contrôlé à distance">
+    150   -   
+    151   -   <!ENTITY urlbar.permissionsGranted.tooltip "Vous avez accordé des permissions supplémentaires à cette page.">
+    152   -   
+    153   -   
+
+    163   -   <!ENTITY bookmarksCmd.commandkey "b">
+
+    178   -   
+    179   -   
+    180   -   
+    181   -   <!ENTITY bookmarksGtkCmd.commandkey "o">
+    182   -   <!ENTITY bookmarksWinCmd.commandkey "i">
+    183   -   
+
+    185   -   <!ENTITY historySidebarCmd.commandKey "h">
+
+    191   -   <!ENTITY downloads.commandkey "j">
+    192   -   <!ENTITY downloadsUnix.commandkey "y">
+
+    194   -   <!ENTITY addons.commandkey "A">
+
+    198   -   <!ENTITY newUserContext.label "Nouvel onglet contextuel">
+    199   -   <!ENTITY manageUserContext.label "Gérer les contextes">
+    200   -   <!ENTITY manageUserContext.accesskey "O">
+
+    202   -   <!ENTITY newNavigatorCmd.key "N">
+
+    206   -   <!ENTITY undoCmd.key "Z">
+    207   -   <!ENTITY redoCmd.key "Y">
+    208   -   <!ENTITY cutCmd.key "X">
+    209   -   <!ENTITY copyCmd.key "C">
+    210   -   <!ENTITY pasteCmd.key "V">
+    211   -   <!ENTITY selectAllCmd.key "A">
+
+    216   -   <!ENTITY privateBrowsingCmd.commandkey "P">
+    217   -   
+    218   -   <!ENTITY viewCustomizeToolbar.label "Personnaliser…">
+    219   -   <!ENTITY viewCustomizeToolbar.accesskey "C">
+
+    228   -   <!ENTITY showAllHistoryCmd.commandkey "H">
+    229   -   
+
+    276   -   
+    277   -   
+    278   -   
+    279   -   <!ENTITY customizeMenu.pinToOverflowMenu.label "Épingler au menu de dépassement">
+    280   -   <!ENTITY customizeMenu.pinToOverflowMenu.accesskey "n">
+
+    287   -   <!ENTITY customizeMenu.autoHideDownloadsButton.label "Masquer automatiquement dans la barre d’outils">
+    288   -   <!ENTITY customizeMenu.autoHideDownloadsButton.accesskey "M">
+    289   -   <!ENTITY customizeMenu.manageExtension.label "Gérer l’extension">
+    290   -   <!ENTITY customizeMenu.manageExtension.accesskey "G">
+    291   -   <!ENTITY customizeMenu.removeExtension.label "Supprimer l’extension">
+    292   -   <!ENTITY customizeMenu.removeExtension.accesskey "S">
+    293   -   
+    294   -   
+    295   -   
+    296   -   <!ENTITY customizeMenu.reportExtension.label "Signaler l’extension">
+    297   -   <!ENTITY customizeMenu.reportExtension.accesskey "n">
+
+    304   -   <!ENTITY openCmd.commandkey "l">
+    305   -   <!ENTITY urlbar.placeholder2 "Saisir un terme à rechercher ou une adresse">
+    306   -   <!ENTITY urlbar.accesskey "d">
+    307   -   
+    308   -   <!ENTITY urlbar.extension.label "Extension :">
+    309   -   <!ENTITY urlbar.switchToTab.label "Aller à l’onglet :">
+    310   -   
+    311   -   
+    312   -   
+    313   -   
+    314   -   
+    315   -   
+    316   -   
+    317   -   
+    318   -   
+    319   -   
+    320   -   
+    321   -   
+    322   -   
+    323   -   
+    324   -   
+    325   -   
+    326   -   
+    327   -   
+    328   -   
+    329   -   
+    330   -   
+    331   -   <!ENTITY searchFocus.commandkey "k">
+    332   -   <!ENTITY searchFocus.commandkey2 "e">
+    333   -   <!ENTITY searchFocusUnix.commandkey "j">
+    334   -   
+
+    344   -   <!ENTITY reloadCmd.commandkey "r">
+
+    348   -   
+    349   -   <!ENTITY savePageCmd.commandkey "s">
+    350   -   
+    351   -   
+    352   -   
+    353   -   
+    354   -   
+    355   -   
+    356   -   
+    357   -   <!ENTITY fullZoomEnlargeCmd.commandkey "+">
+    358   -   <!ENTITY fullZoomEnlargeCmd.commandkey2 "=">
+    359   -   <!ENTITY fullZoomEnlargeCmd.commandkey3 "">
+    360   -   
+    361   -   <!ENTITY fullZoomReduceCmd.commandkey "-">
+    362   -   <!ENTITY fullZoomReduceCmd.commandkey2 "">
+    363   -   
+    364   -   <!ENTITY fullZoomResetCmd.commandkey "0">
+    365   -   <!ENTITY fullZoomResetCmd.commandkey2 "">
+
+    370   -   <!ENTITY sidebarMenuClose.label "Fermer le panneau latéral">
+
+    375   -   <!ENTITY goBackCmd.commandKey "[">
+    376   -   <!ENTITY goForwardCmd.commandKey "]">
+
+    380   -   <!ENTITY quitApplicationCmd.key "Q">
+    381   -   
+    382   -   <!ENTITY closeCmd.key "W">
+    383   -   
+    384   -   <!ENTITY toggleMuteCmd.key "M">
+
+    395   -   <!ENTITY bidiSwitchTextDirectionItem.commandkey "X">
+    396   -   
+
+    398   -   <!ENTITY findOnCmd.commandkey "f">
+    399   -   <!ENTITY findAgainCmd.commandkey "g">
+    400   -   <!ENTITY findAgainCmd.commandkey2 "VK_F3">
+    401   -   <!ENTITY findSelectionCmd.commandkey "e">
+
+    458   -   
+
+    463   -   <!ENTITY syncedTabs.sidebar.label "Onglets synchronisés">
+    464   -   
+
+    469   -   <!ENTITY getUserMedia.selectCamera.label "Caméra à partager :">
+    470   -   <!ENTITY getUserMedia.selectCamera.accesskey "C">
+    471   -   <!ENTITY getUserMedia.selectMicrophone.label "Microphone à partager :">
+    472   -   <!ENTITY getUserMedia.selectMicrophone.accesskey "M">
+    473   -   <!ENTITY getUserMedia.allWindowsShared.message "L’ensemble des fenêtres visibles sur votre écran seront partagées.">
+
+    497   -   
+    498   -   <!ENTITY newTabControlled.header.message "La page Nouvel onglet a été modifiée.">
+    499   -   <!ENTITY newTabControlled.keepButton.label "Conserver les modifications">
+    500   -   <!ENTITY newTabControlled.keepButton.accesskey "C">
+    501   -   <!ENTITY newTabControlled.disableButton.label "Désactiver l'extension">
+    502   -   <!ENTITY newTabControlled.disableButton.accesskey "D">
+    503   -   
+    504   -   <!ENTITY homepageControlled.header.message "La page d’accueil a été modifiée.">
+    505   -   <!ENTITY homepageControlled.keepButton.label "Conserver les modifications">
+    506   -   <!ENTITY homepageControlled.keepButton.accesskey "C">
+    507   -   <!ENTITY homepageControlled.disableButton.label "Désactiver l’extension">
+    508   -   <!ENTITY homepageControlled.disableButton.accesskey "D">
+    509   -   
+    510   -   <!ENTITY tabHideControlled.header.message "Accéder aux onglets masqués">
+    511   -   <!ENTITY tabHideControlled.keepButton.label "Continuer à masquer les onglets">
+    512   -   <!ENTITY tabHideControlled.keepButton.accesskey "C">
+    513   -   <!ENTITY tabHideControlled.disableButton.label "Désactiver l’extension">
+    514   -   <!ENTITY tabHideControlled.disableButton.accesskey "D">
+    515   -   
+    516   -   <!ENTITY pageActionButton.tooltip "Actions pour la page">
+
+
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\chrome\fr\locale\browser\browser.properties"
+
+    215   -   urlbar.placeholder=Rechercher avec %S ou saisir une adresse
+
+    225   -   starButtonOn.tooltip2=Modifier ce marque-page (%S)
+    226   -   starButtonOff.tooltip2=Marquer cette page (%S)
+
+
+>         -   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\chrome\fr\locale\fr\devtools\client\toolbox.dtd"
+
+
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\chrome\fr\locale\fr\devtools\client\webconsole.properties"
+
+    131   +   webconsole.console.settings.menu.button.tooltip=Paramètres de la console
+    132   +   
+    133   +   webconsole.console.settings.menu.item.compactToolbar.label=Barre d’outils compacte
+    134   +   
+    135   +   webconsole.console.settings.menu.item.timestamps.label=Afficher l’horodatage
+    136   +   webconsole.console.settings.menu.item.timestamps.tooltip=Si vous activez cette option, les commandes et les sorties dans la console web afficheront l’horodatage
+    137   +   
+    138   +   webconsole.console.settings.menu.item.warningGroups.label=Grouper les messages similaires
+    139   +   webconsole.console.settings.menu.item.warningGroups.tooltip=Si vous activez cette option, les messages similaires sont regroupés
+    140   +   
+
+
+>         +   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\browser\allTabsMenu.ftl"
+
+
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\browser\appMenuNotifications.ftl"
+
+     35   -   appmenu-addon-private-browsing =
+     36   -       .label = Changement pour les extensions en fenêtres de navigation privée
+     37   -       .buttonlabel = Gérer les extensions
+     38   -       .buttonaccesskey = G
+     39   -       .secondarybuttonlabel = J’ai compris
+     40   -       .secondarybuttonaccesskey = a
+     41   -   appmenu-addon-private-browsing-message = Les nouvelles extensions que vous ajouterez à { -brand-shorter-name } ne fonctionneront pas dans les fenêtres de navigation privée à moins d’autoriser explicitement leur exécution dans les paramètres.
+     42   -   appmenu-addon-private-browsing-learn-more = Apprenez comment gérer les paramètres des extensions.
+
+     35   +   
+     36   +   appmenu-new-tab-controlled =
+     37   +       .label = La page Nouvel onglet a été modifiée.
+     38   +       .buttonlabel = Conserver les modifications
+     39   +       .buttonaccesskey = C
+     40   +       .secondarybuttonlabel = Désactiver l'extension
+     41   +       .secondarybuttonaccesskey = D
+     42   +   appmenu-homepage-controlled =
+     43   +       .label = La page d’accueil a été modifiée.
+     44   +       .buttonlabel = Conserver les modifications
+     45   +       .buttonaccesskey = C
+     46   +       .secondarybuttonlabel = Désactiver l’extension
+     47   +       .secondarybuttonaccesskey = D
+     48   +   appmenu-tab-hide-controlled =
+     49   +       .label = Accéder aux onglets masqués
+     50   +       .buttonlabel = Continuer à masquer les onglets
+     51   +       .buttonaccesskey = C
+     52   +       .secondarybuttonlabel = Désactiver l’extension
+     53   +       .secondarybuttonaccesskey = D
+
+
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\browser\browser.ftl"
+
+      5   +   appmenuitem-customize-mode =
+      6   +       .label = Personnaliser…
+      7   +   
+
+     77   +   
+     78   +   
+     79   +   urlbar-star-edit-bookmark =
+     80   +       .tooltiptext = Modifier ce marque-page ({ $shortcut })
+     81   +   
+     82   +   
+     83   +   
+     84   +   urlbar-star-add-bookmark =
+     85   +       .tooltiptext = Marquer cette page ({ $shortcut })
+     86   +   
+
+    139   +   
+    140   +   
+    141   +   
+    142   +   popup-select-camera =
+    143   +       .value = Caméra à partager :
+    144   +       .accesskey = C
+    145   +   popup-select-microphone =
+    146   +       .value = Microphone à partager :
+    147   +       .accesskey = M
+    148   +   popup-all-windows-shared = L’ensemble des fenêtres visibles sur votre écran seront partagées.
+    149   +   
+    150   +   
+    151   +   
+    152   +   urlbar-placeholder =
+    153   +       .placeholder = Saisir un terme à rechercher ou une adresse
+    154   +   
+    155   +   
+    156   +   
+    157   +   urlbar-placeholder-with-name =
+    158   +       .placeholder = Rechercher avec { $name } ou saisir une adresse
+    159   +   urlbar-remote-control-notification-anchor =
+    160   +       .tooltiptext = Le navigateur est contrôlé à distance
+    161   +   urlbar-permissions-granted =
+    162   +       .tooltiptext = Vous avez accordé des permissions supplémentaires à cette page.
+    163   +   urlbar-switch-to-tab =
+    164   +       .value = Aller à l’onglet :
+    165   +   
+    166   +   
+    167   +   urlbar-extension =
+    168   +       .value = Extension :
+    169   +   
+    170   +   urlbar-go-end-cap =
+    171   +       .tooltiptext = Se rendre à la page indiquée dans la barre d’adresse
+    172   +   urlbar-page-action-button =
+    173   +       .tooltiptext = Actions pour la page
+
+
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\browser\browserContext.ftl"
+
+     71   ·   main-context-menu-bookmark-add =
+
+     74   +       .tooltiptext = Marquer cette page
+     75   +   
+     76   +   
+     77   +   
+     78   +   main-context-menu-bookmark-add-with-shortcut =
+     79   +       .aria-label = Marquer cette page
+     80   +       .accesskey = c
+     81   +       .tooltiptext = Marquer cette page ({ $shortcut })
+     82   +   
+     83   +   main-context-menu-bookmark-change =
+     84   +       .aria-label = Modifier ce marque-page
+     85   +       .accesskey = c
+     86   +       .tooltiptext = Modifier ce marque-page
+     87   +   
+     88   +   
+     89   +   
+     90   +   main-context-menu-bookmark-change-with-shortcut =
+     91   +       .aria-label = Modifier ce marque-page
+     92   +       .accesskey = m
+     93   +       .tooltiptext = Modifier ce marque-page ({ $shortcut })
+     94   +   
+
+
+>         +   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\browser\browserSets.ftl"
+
+
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\browser\menubar.ftl"
+
+    170   +   menu-bookmark-this-page =
+    171   +       .label = Marquer cette page
+    172   +   menu-bookmark-edit =
+    173   +       .label = Modifier ce marque-page
+
+
+>         ·   
+
+     23   +   
+     24   +   toolbar-context-menu-manage-extension =
+     25   +       .label = Gérer l’extension
+     26   +       .accesskey = G
+     27   +   toolbar-context-menu-remove-extension =
+     28   +       .label = Supprimer l’extension
+     29   +       .accesskey = S
+     30   +   
+     31   +   
+     32   +   
+     33   +   
+     34   +   toolbar-context-menu-pin-to-overflow-menu =
+     35   +       .label = Épingler au menu de dépassement
+     36   +       .accesskey = n
+     37   +   toolbar-context-menu-auto-hide-downloads-button =
+     38   +       .label = Masquer automatiquement dans la barre d’outils
+     39   +       .accesskey = M
+     40   +   toolbar-context-menu-remove-from-toolbar =
+     41   +       .label = Retirer de la barre d'outils
+     42   +       .accesskey = R
+     43   +   toolbar-context-menu-view-customize-toolbar =
+     44   +       .label = Personnaliser…
+     45   +       .accesskey = P
+
+
+>         ›   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\devtools\*"
+                  › "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\devtools\client\*"
+
+
+>         ›   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\startup"
+                  › "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\devtools\startup"
+
+
+>         +   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\devtools\client\toolbox-options.ftl"
+
+
+
+-----
