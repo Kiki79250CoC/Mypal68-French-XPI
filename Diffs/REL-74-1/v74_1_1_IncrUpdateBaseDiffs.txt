@@ -426,7 +426,7 @@ LINE_NB   A   CONTENT
     173   +       .label = Modifier ce marque-page
 
 
->         ·   
+>         ·   "T:\GitHub_Desktop\Mypal68-French-XPI\XPI\browser\localization\fr\browser\toolbarContextMenu.ftl"
 
      23   +   
      24   +   toolbar-context-menu-manage-extension =
